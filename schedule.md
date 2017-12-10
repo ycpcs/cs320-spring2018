@@ -21,7 +21,7 @@ Jan 31 | Agile and Scrum Guest Lecture | [Questions and Discussion 2](lectures/X
 Feb 2  | Requirements | UD: Chapter 9, [Lecture 3: Requirements, Use Cases](lectures/lecture03.html)
 Feb 5  | Use Case Exercise |
 Feb 7  | Team Project Session: Use Cases (in class) | 
-Feb 9  | UML, OO Analysis | UD: Chapter 3, [Lecture 4: UML Class Diagrams](lectures/lecture04.html)<br> [Lecture 5: OO Analysis](lectures/lecture05.html)
+Feb 9  | UML and OO Analysis | UD: Chapter 3, [Lecture 4: UML Class Diagrams](lectures/lecture04.html)<br> [Lecture 5: OO Analysis](lectures/lecture05.html)
 Feb 12 | OO Analysis Exercise (in class) | 
 Feb 14 | Team Project Session: Project Analysis Model (in class)
 Feb 16 | Project Analysis Model Presentations and Discussion
@@ -31,15 +31,15 @@ Feb 23 | Version Control Lab (in class) |  [Lab 3: Git Lab](./labs/lab03.html)
 Feb 26 | **Winter Break, no class**
 Feb 28 | **Winter Break, no class**
 Mar 2  | **Winter Break, no class**
-Mar 5  | SQL Databases<br> SQL Lab Assigned) | [Lecture 9: Relational Databases](lectures/lecture09.html)<br> [Lab 4: SQL Lab](./labs/lab04.html)
+Mar 5  | Relational Databases<br> SQL Lab Assigned | [Lecture 9: Relational Databases](lectures/lecture09.html)<br> [Lab 4: SQL Lab](./labs/lab04.html)
 Mar 7  | Database Applications - JDBC<br> JDBC Lab Assigned | [Lecture 10: Database Applications, JDBC](lectures/lecture10.html)<br> [Lab 5: JDBC Lab](./labs/lab05.html)
 Mar 9  | Database Applications - ORM <br> ORM Lab Assigned | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
 Mar 12 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
-Mar 14 | SQL / JDBC / ORM Labs
-Mar 16 | Testing, Code Coverage | [Lecture 12: Testing](lectures/lecture12.html)
+Mar 14 | ORM Lab Session (in class)
+Mar 16 | Testing and Code Coverage | [Lecture 12: Testing](lectures/lecture12.html)
 Mar 19 | Team Project Milestone 1:<br> **Minimal Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Mar 21 | Ensuring Code Quality | [Lecture 13: Ensuring Code Quality](lectures/lecture13.html) 
-Mar 23 | Library Application Example and Exam Review
+Mar 23 | Library Application Example<br> Mid-Term Exam Review
 Mar 26 | Individual Project Milestone 2:<br> **33% Progress** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 Mar 28 | **MID-TERM EXAM** (in class)
 Mar 30 | **Spring Break, no class**
@@ -59,6 +59,6 @@ Apr 27 | Team Project Session (in class)
 Apr 30 | Team Project Session (in class)
 May 2  | **Last Class**<br> Team Project Milestone 4:<br> **95% Working System** | <br>[Assignment 3: Team Project Milestones](assign/assign03.html)
 May 5 | Team Project Code & Report Due | [Assignment 8: Team Project Deliverables](assign/assign08.html)
-May 8 | Team Project Reflection Due<br>Team Project Self/Peer Evaluation Due | [Assignment 10: Team Project Reflection](assign/assign10.html)<br> [Assignment 11: Team Project Self/Peer Evaluation](assign/assign11.html)
+May 8 | Team Project Reflection Due<br>Team Project Self / Peer Evaluation Due | [Assignment 10: Team Project Reflection](assign/assign10.html)<br> [Assignment 11: Team Project Self / Peer Evaluation](assign/assign11.html)
 May 9 | **TEAM PROJECT PRESENTATIONS**<br>During Final Exam Period | [Assignment 8: Team Project Deliverables](assign/assign08.html)
 
