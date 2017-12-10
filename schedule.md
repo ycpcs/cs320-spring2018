@@ -21,7 +21,7 @@ Jan 31 | Agile and Scrum Guest Lecture | [Questions and Discussion 2](lectures/X
 Feb 2  | Requirements | UD: Chapter 9, [Lecture 3: Requirements, Use Cases](lectures/lecture03.html)
 Feb 5  | Use Case Exercise |
 Feb 7  | Team Project Session: Use Cases (in class) | 
-Feb 9  | UML, OO Analysis | UD: Chapter 3, [Lecture 4: UML Class Diagrams](lectures/lecture04.html), [Lecture 5: OO Analysis](lectures/lecture05.html)
+Feb 9  | UML, OO Analysis | UD: Chapter 3, [Lecture 4: UML Class Diagrams](lectures/lecture04.html)<br> [Lecture 5: OO Analysis](lectures/lecture05.html)
 Feb 12 | OO Analysis Exercise (in class) | 
 Feb 14 | Team Project Session: Project Analysis Model (in class)
 Feb 16 | Project Analysis Model Presentations and Discussion
