@@ -12,8 +12,8 @@ This is the schedule for the course.  It may be updated from time to time.  Upda
 Date   | Topic/Activity | Reading
 ------ | -------------- | -------
 Jan 17 | Course Introduction | [Lecture 1: Course Overview, OOP](lectures/lecture01.html)
-Jan 19 | HTML and CSS (and HTML and CSS Lab) | [Lecture 7: HTML and CSS](lectures/lecture07.html)<br> [Lab 1: HTML and CSS Lab](./labs/lab01.html)
-Jan 22 | Web Applications (and Web Applications Lab) | [Lecture 8: Web Applications](lectures/lecture08.html)<br> [Lab 2: Web Applications Lab](./labs/lab02.html)
+Jan 19 | HTML and CSS<br> HTML and CSS Lab Assigned | [Lecture 7: HTML and CSS](lectures/lecture07.html)<br> [Lab 1: HTML and CSS Lab](./labs/lab01.html)
+Jan 22 | Web Applications<br> Web Applications Lab Assigned | [Lecture 8: Web Applications](lectures/lecture08.html)<br> [Lab 2: Web Applications Lab](./labs/lab02.html)
 Jan 24 | Web Applications Exercise and Lab (in class) | [Lab 2: Web Applications Lab](./labs/lab02.html)
 Jan 26 | Development Process, Agile Development | UD: Chapter 2, [Lecture 2: Development Process](lectures/lecture02.html)<br> [Manifesto for Agile Software Development](http://www.agilemanifesto.org/)
 Jan 29 | Agile Development and Scrum  | [Questions and Discussion 1](lectures/XPdiscussion1_5.html)
@@ -27,13 +27,13 @@ Feb 14 | Team Project Session: Project Analysis Model (in class)
 Feb 16 | Project Analysis Model Presentations and Discussion
 Feb 19 | OO Design | [Lecture 6: OO Design, OCP, LSP](lectures/lecture06.html), Robert Martin, [Design Principles and Design Patterns](lectures/lecture06/Principles_and_Patterns.pdf), pages 1-12
 Feb 21 | Version Control | [Git for Designers](https://web.archive.org/web/20150301060509/http://hoth.entp.com/output/git_for_designers.html)
-Feb 23 | Version Control Lab |  [Lab 3: Git Lab](./labs/lab03.html)
+Feb 23 | Version Control Lab (in class) |  [Lab 3: Git Lab](./labs/lab03.html)
 Feb 26 | **Winter Break, no class**
 Feb 28 | **Winter Break, no class**
 Mar 2  | **Winter Break, no class**
-Mar 5  | SQL Databases (and SQL Lab) | [Lecture 9: Relational Databases](lectures/lecture09.html)<br> [Lab 4: SQL Lab](./labs/lab04.html)
-Mar 7  | Database Applications - JDBC (and JDBC Lab) | [Lecture 10: Database Applications, JDBC](lectures/lecture10.html)<br> [Lab 5: JDBC Lab](./labs/lab05.html)
-Mar 9  | Database Applications - ORM (and ORM Lab) | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
+Mar 5  | SQL Databases<br> SQL Lab Assigned) | [Lecture 9: Relational Databases](lectures/lecture09.html)<br> [Lab 4: SQL Lab](./labs/lab04.html)
+Mar 7  | Database Applications - JDBC<br> JDBC Lab Assigned | [Lecture 10: Database Applications, JDBC](lectures/lecture10.html)<br> [Lab 5: JDBC Lab](./labs/lab05.html)
+Mar 9  | Database Applications - ORM <br> ORM Lab Assigned | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
 Mar 12 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 Mar 14 | SQL / JDBC / ORM Labs<br> In-class team project work
 Mar 16 | Testing, Code Coverage | [Lecture 12: Testing](lectures/lecture12.html)
