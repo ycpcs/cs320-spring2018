@@ -9,6 +9,8 @@ This is the schedule for the course.  It may be updated from time to time.  Upda
 
 * UD is *UML Distilled, 3rd ed.*
 
+* Test *
+
 Date   | Topic/Activity | Reading
 ------ | -------------- | -------
 Jan 17 | Course Introduction | [Lecture 1: Course Overview, OOP](lectures/lecture01.html)
