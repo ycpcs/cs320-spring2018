@@ -16,8 +16,8 @@ Jan 19 | HTML and CSS (and HTML and CSS Lab) | [Lecture 7: HTML and CSS](lecture
 Jan 22 | Web Applications (and Web Applications Lab) | [Lecture 8: Web Applications](lectures/lecture08.html)<br> [Lab 2: Web Applications Lab](./labs/lab02.html)
 Jan 24 | Web Applications Exercise and Lab (in class) | [Lab 2: Web Applications Lab](./labs/lab02.html)
 Jan 26 | Development Process, Agile Development | UD: Chapter 2, [Lecture 2: Development Process](lectures/lecture02.html), [Manifesto for Agile Software Development](http://www.agilemanifesto.org/)
-Jan 29 | Agile Development and Scrum  | [Questions and Discussions](lectures/XPdiscussion1_5.html)
-Jan 31 | Agile and Scrum Guest Lecture | XP: Chapters 6&ndash;7, [Questions and Discussions](lectures/XPdiscussion6_7.html)
+Jan 29 | Agile Development and Scrum  | [Questions and Discussion 1](lectures/XPdiscussion1_5.html)
+Jan 31 | Agile and Scrum Guest Lecture | [Questions and Discussion 2](lectures/XPdiscussion6_7.html)
 Feb 2  | Requirements | UD: Chapter 9, [Lecture 3: Requirements, Use Cases](lectures/lecture03.html)
 Feb 5  | Use Case Exercise |
 Feb 7  | Team Project Session: Use Cases (in class) | 
