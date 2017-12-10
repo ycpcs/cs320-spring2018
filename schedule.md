@@ -9,8 +9,8 @@ This is the schedule for the course.  It may be updated from time to time.  Upda
 
 * UD is *UML Distilled, 3rd ed.*
 
-Date | Topic/Activity | Reading
----- | -------------- | -------
+Date   | Topic/Activity | Reading
+------ | -------------- | -------
 Jan 17 | Course Introduction | [Lecture 1: Course Overview, OOP](lectures/lecture01.html)
 Jan 19 | HTML and CSS (and HTML and CSS Lab) | [Lecture 7: HTML and CSS](lectures/lecture07.html)<br> [Lab 1: HTML and CSS Lab](./labs/lab01.html)
 Jan 22 | Web Applications (and Web Applications Lab) | [Lecture 8: Web Applications](lectures/lecture08.html)<br> [Lab 2: Web Applications Lab](./labs/lab02.html)
