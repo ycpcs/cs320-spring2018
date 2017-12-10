@@ -39,7 +39,7 @@ Mar 14 | SQL / JDBC / ORM Labs
 Mar 16 | Testing, Code Coverage | [Lecture 12: Testing](lectures/lecture12.html)
 Mar 19 | Team Project Milestone 1:<br> **Minimal Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Mar 21 | Ensuring Code Quality | [Lecture 13: Ensuring Code Quality](lectures/lecture13.html) 
-Mar 23 | Library Example and Exam Review
+Mar 23 | Library Application Example and Exam Review
 Mar 26 | Individual Project Milestone 2:<br> **33% Progress** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 Mar 28 | **MID-TERM EXAM** (in class)
 Mar 30 | **Spring Break, no class**
