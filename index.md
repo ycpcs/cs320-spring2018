@@ -26,8 +26,6 @@ All information about the course will be posted here.
 
 <!--
 
--->
-
 * **Apr 24** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 8th by 11:59 PM.
 
 * **Apr 24** - [Assignment 9](assign/assign09.html) describes the deliverables for the individual project.
@@ -79,6 +77,8 @@ All information about the course will be posted here.
 * **Jan 19** - Assign02: Individual Project Proposal **due Sunday, 2-4-18**
 * **Jan 19** - Assign01: Team Project Proposal **due Sunday, 1-28-18**
 * **Jan 19** - Lab01: HTML & CSS **due Sunday, 1-21-18**
+
+-->
 
 * **Jan 17** - [Lab 1: HTML and CSS](labs/lab01.html) is posted
 * **Jan 17** - [Assignment 1](assign/assign01.html) is posted
