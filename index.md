@@ -24,7 +24,7 @@ All information about the course will be posted here.
 
 ## News
 
-<!--
+<!-- Commenting out News until it's needed - and the dates will change, anyway
 
 * **Apr 24** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 8th by 11:59 PM.
 
