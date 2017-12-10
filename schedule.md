@@ -35,7 +35,7 @@ Mar 5  | SQL Databases<br> SQL Lab Assigned) | [Lecture 9: Relational Databases]
 Mar 7  | Database Applications - JDBC<br> JDBC Lab Assigned | [Lecture 10: Database Applications, JDBC](lectures/lecture10.html)<br> [Lab 5: JDBC Lab](./labs/lab05.html)
 Mar 9  | Database Applications - ORM <br> ORM Lab Assigned | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
 Mar 12 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
-Mar 14 | SQL / JDBC / ORM Labs<br> In-class team project work
+Mar 14 | SQL / JDBC / ORM Labs
 Mar 16 | Testing, Code Coverage | [Lecture 12: Testing](lectures/lecture12.html)
 Mar 19 | Team Project Milestone 1:<br> **Minimal Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Mar 21 | Ensuring Code Quality | [Lecture 13: Ensuring Code Quality](lectures/lecture13.html) 
