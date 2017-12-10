@@ -25,19 +25,20 @@ All information about the course will be posted here.
 ## News
 
 <!--
-* **Apr 25** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 9th by 11:59 PM.
+* **Apr 24** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 8th by 11:59 PM.
 
-* **Apr 25** - [Assignment 9](assign/assign09.html) describes the deliverables for the individual project.
+* **Apr 24** - [Assignment 9](assign/assign09.html) describes the deliverables for the individual project.
 
-* **Apr 25** - [Assignment 8](assign/assign08.html) describes the deliverables for the team project.
+* **Apr 24** - [Assignment 8](assign/assign08.html) describes the deliverables for the team project.
 
-* **Apr 25** - [Team Project Milestone 4](assign/assign03.html) is due Monday, May 1st.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 3.  You should have a 95% working system, with a higher degree of "polish".  All SQL database functionality should be implemented for this milestone.  See the guidelines for [Team Project Milestone 4](assign/assign03.html).
+* **Apr 24** - [Team Project Milestone 4](assign/assign03.html) is due Monday, April 30th.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 3.  You should have a 95% working system, with a higher degree of "polish".  All SQL database functionality should be implemented for this milestone.  See the guidelines for [Team Project Milestone 4](assign/assign03.html).
 
-* **Apr 17** - [Individual Project Milestone3](assign/assign04.html) is due Monday, April 24th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 2.
+* **Apr 16** - [Individual Project Milestone3](assign/assign04.html) is due Monday, April 23rd.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 2.
 
-* **Apr 14** - [Team Project Milestone 3](assign/assign03.html) is due Friday, April 21st.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
+* **Apr 13** - [Team Project Milestone 3](assign/assign03.html) is due Friday, April 20th.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
 
-* **Apr 3** - Posted an extensive example project on the [Resources page](./resources) that incorporates the Web Applications lab solution (Lab02) with the ORM Lab solution (Lab06).  It provides a web application front-end to the ORM queries, as well as demonstrates the use of login session information, and incorporation of a SQL database persistence layer with a many-to-many relationship.
+* **Apr 2** - Posted an extensive example project on the [Resources page](./resources) that incorporates the Web Applications lab solution (Lab02) with the ORM Lab solution (Lab06).  It provides a web application front-end to the ORM queries, as well as demonstrates the use of login session information, and incorporation of a SQL database persistence layer with a many-to-many relationship.
+
 * **Mar 28** - The midterm exam will be in-class on **Friday, 4-6-18**.  It will be open notes and you can use any resource on the CS320 website, as well as your lab solutions.  A practice exam will be posted over the weekend.  We will use Wednesday, 4-4-18, to go over an end-to-end solution for the books database we've been working with, as well as review for the exam.
 
 * **Mar 24** - [Individual Project Milestone2](assign/assign04.html) is due Monday, April 9th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 1.
