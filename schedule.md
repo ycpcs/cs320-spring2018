@@ -15,7 +15,7 @@ Jan 17 | Course Introduction | [Lecture 1: Course Overview, OOP](lectures/lectur
 Jan 19 | HTML and CSS (and HTML and CSS Lab) | [Lecture 7: HTML and CSS](lectures/lecture07.html)<br> [Lab 1: HTML and CSS Lab](./labs/lab01.html)
 Jan 22 | Web Applications (and Web Applications Lab) | [Lecture 8: Web Applications](lectures/lecture08.html)<br> [Lab 2: Web Applications Lab](./labs/lab02.html)
 Jan 24 | Web Applications Exercise and Lab (in class) | [Lab 2: Web Applications Lab](./labs/lab02.html)
-Jan 26 | Development Process, Agile Development | UD: Chapter 2, [Lecture 2: Development Process](lectures/lecture02.html), [Manifesto for Agile Software Development](http://www.agilemanifesto.org/)
+Jan 26 | Development Process, Agile Development | UD: Chapter 2, [Lecture 2: Development Process](lectures/lecture02.html)<br> [Manifesto for Agile Software Development](http://www.agilemanifesto.org/)
 Jan 29 | Agile Development and Scrum  | [Questions and Discussion 1](lectures/XPdiscussion1_5.html)
 Jan 31 | Agile and Scrum Guest Lecture | [Questions and Discussion 2](lectures/XPdiscussion6_7.html)
 Feb 2  | Requirements | UD: Chapter 9, [Lecture 3: Requirements, Use Cases](lectures/lecture03.html)
@@ -36,7 +36,7 @@ Mar 7  | Database Applications - JDBC (and JDBC Lab) | [Lecture 10: Database App
 Mar 9  | Database Applications - ORM (and ORM Lab) | [Lecture 11: ORM, Designing a Persistence Layer](lectures/lecture11.html)<br> [Lab 6: ORM Lab](./labs/lab06.html)
 Mar 12 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 Mar 14 | SQL / JDBC / ORM Labs<br> In-class team project work
-Mar 16 | Testing, code coverage | [Lecture 12: Testing](lectures/lecture12.html)
+Mar 16 | Testing, Code Coverage | [Lecture 12: Testing](lectures/lecture12.html)
 Mar 19 | Team Project Milestone 1:<br> **Minimal Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Mar 21 | Ensuring Code Quality | [Lecture 13: Ensuring Code Quality](lectures/lecture13.html) 
 Mar 23 | Library Example and Exam Review
