@@ -24,10 +24,12 @@ All information about the course will be posted here.
 
 ## News
 
-* **Jan 17** - Assign02: Individual Project Proposal **due Sunday, 2-4-18**
-* **Jan 17** - Assign01: Team Project Proposal **due Sunday, 1-28-18**
-* **Jan 17** - Lab01: HTML & CSS **due Sunday, 1-21-18**
+* **Jan 19** - Assign02: Individual Project Proposal **due Sunday, 2-4-18**
+* **Jan 19** - Assign01: Team Project Proposal **due Sunday, 1-28-18**
+* **Jan 19** - Lab01: HTML & CSS **due Sunday, 1-21-18**
 
 * **Jan 17** - [Lab 1: HTML and CSS](labs/lab01.html) is posted
-* **Jan 17** - [Assignment 1](assign/assign01.html) and [Assignment 2](assign/assign02.html) are posted.
-* **Jan 17** - Welcome back to KEC and the most FUN you've ever had in a course (and probably the most WORK, too)!
+* **Jan 17** - [Assignment 1](assign/assign01.html) is posted
+* **Jan 17** - [Assignment 2](assign/assign02.html) is posted.
+
+* **Jan 17** - Welcome back to Kinsley and the most FUN you've ever had in a course (and probably the most WORK, too)!
