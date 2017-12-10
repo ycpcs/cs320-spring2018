@@ -61,4 +61,3 @@ May 2  | **Last Class**<br> Team Project Milestone 4:<br> **95% Working System**
 May 5 | Team Project Code & Report Due | [Assignment 8: Team Project Deliverables](assign/assign08.html)
 May 8 | Team Project Reflection Due<br>Team Project Self / Peer Evaluation Due | [Assignment 10: Team Project Reflection](assign/assign10.html)<br> [Assignment 11: Team Project Self / Peer Evaluation](assign/assign11.html)
 May 9 | **TEAM PROJECT PRESENTATIONS**<br>During Final Exam Period | [Assignment 8: Team Project Deliverables](assign/assign08.html)
-
