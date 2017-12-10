@@ -25,7 +25,7 @@ Feb 9  | UML, OO Analysis | UD: Chapter 3, [Lecture 4: UML Class Diagrams](lectu
 Feb 12 | OO Analysis Exercise (in class) | 
 Feb 14 | Team Project Session: Project Analysis Model (in class)
 Feb 16 | Project Analysis Model Presentations and Discussion
-Feb 19 | OO Design | [Lecture 6: OO Design, OCP, LSP](lectures/lecture06.html), Robert Martin, [Design Principles and Design Patterns](lectures/lecture06/Principles_and_Patterns.pdf), pages 1-12
+Feb 19 | OO Design | [Lecture 6: OO Design, OCP, LSP](lectures/lecture06.html)<br> [Design Principles and Design Patterns](lectures/lecture06/Principles_and_Patterns.pdf), Robert Martin, pages 1-12
 Feb 21 | Version Control | [Git for Designers](https://web.archive.org/web/20150301060509/http://hoth.entp.com/output/git_for_designers.html)
 Feb 23 | Version Control Lab (in class) |  [Lab 3: Git Lab](./labs/lab03.html)
 Feb 26 | **Winter Break, no class**
