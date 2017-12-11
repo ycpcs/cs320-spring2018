@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 10: Team Project Reflection"
 ---
 
-**Due: Tuesday, May 9th by 11:59 PM**
+**Due: [See Assignment Schedule](index.html)**
 
 This is an **individual** assignment
 

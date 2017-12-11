@@ -9,10 +9,10 @@ This document describes the expectations for each milestone.
 
 > Date | Milestone
 > ---- | ---------
-> Monday, March 20    | Milestone 1: Minimal Working System
-> Monday, April 3     | Milestone 2: Progress on Features
-> Friday, April 21    | Milestone 3: "75%" Working System (persistence using SQL database)
-> Monday, May 1       | Milestone 4: "95%" Working System (presentation & demo "dry run")
+> Monday, March 19    | Milestone 1: Minimal Working System
+> Friday, April 6     | Milestone 2: Progress on Features
+> Monday, April 16    | Milestone 3: "75%" Working System (persistence using SQL database)
+> Wednesday, May 2    | Milestone 4: "95%" Working System (presentation & demo "dry run")
 
 ## Expectations
 
@@ -45,7 +45,3 @@ For each of these milestones, I will give your team one of the following grades:
 <div class="callout">
 <b>DO NOT LEAVE TEST CASES AS AN AFTER-THOUGHT.  YOUR TEAM WILL RECEIVE "BELOW EXPECTATIONS" IF YOU DO NOT HAVE SUFFICIENT TEST CASES DEVELOPED FOR EACH MILESTONE.</b>
 </div>
-
-<!-- vim:set wrap: ­-->
-<!-- vim:set linebreak: -->
-<!-- vim:set nolist: -->

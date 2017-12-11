@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Assignment 11: Team Project Self/Peer Evaluation"
+title: "Assignment 11: Team Project Self / Peer Evaluation"
 ---
 
-**Due: Tuesday, May 9th by 11:59 PM**
+**Due: [See Assignment Schedule](index.html)**
 
 This is an **individual** assignment
 
@@ -22,4 +22,3 @@ Upload the completed form to Marmoset as **assign11peereval**.  You *must* submi
 <div class="callout">
 Your self/peer evaluation <em>must</em> be submitted in PDF format.  Submissions in any other format may receive a grade of 0.
 </div>
-

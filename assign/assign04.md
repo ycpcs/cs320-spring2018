@@ -9,14 +9,14 @@ This document describes the expectations for each milestone.
 
 *Important*: For each milestone, make sure you come to class prepared to demonstrate your work.  If there is any hardware or software you need, it is your responsibility to make sure it is available and working.
 
-*Important*: Each individual milestone demo canbe no longer than 3-4 minutes (in order for me to see all of the demos during class.)
+*Important*: Each individual milestone demo can be no longer than 3-4 minutes (in order for me to see all of the demos during class.)
 
 > Date | Milestone
 > ---- | ---------
-> Monday, March 27 | Milestone 1: Baseline Prototype
-> Monday, April 10 | Milestone 2: 33% Working Progress
-> Monday, April 24 | Milestone 3: 67% Working Progress
-> Wednesday, May 3 | Milestone 4: Final Project Demo
+> Monday, March 12 | Milestone 1: Baseline Prototype
+> Monday, March 26 | Milestone 2: 33% Working Progress
+> Monday, April 9  | Milestone 3: 67% Working Progress
+> Monday, April 23 | Milestone 4: Final Project Demo
 
 ## Expectations
 
@@ -27,7 +27,3 @@ This document describes the expectations for each milestone.
 **Milestone 3: 67% Progress**: For this milestone, you should be be about two thirds of the way towards completion of the project.  Most of the features described in your proposal should be implemented in some form.
 
 **Milestone 4: Final Project Demo**. This is the completed project.
-
-<!-- vim:set wrap: ­-->
-<!-- vim:set linebreak: -->
-<!-- vim:set nolist: -->

@@ -3,9 +3,9 @@ layout: default
 title: "Assignment 8: Team Project Deliverables"
 ---
 
-**Code and report due: Saturday, May 6th by 11:59 PM**
+**Code and report due: [See Assignment Schedule](index.html)**
 
-**Presentations: Wednesday, May 10th**
+**Presentations: Wednesday, May 9th**
 
 -   Section 101: 8:00 AM &ndash; 10:00 AM
 -   Section 102: 10:15 AM &ndash; 12:15 PM
