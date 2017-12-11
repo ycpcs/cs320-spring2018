@@ -7,9 +7,9 @@ title: "Assignment 11: Team Project Self / Peer Evaluation"
 
 This is an **individual** assignment
 
-# Self/Peer Evaluation
+# Self / Peer Evaluation
 
-Download the following Self/Peer Evaluation form:
+Download the following Self / Peer Evaluation form:
 
 > [PeerReview.doc](PeerReview.doc)
 
@@ -20,5 +20,5 @@ Use this form to evaluate the contributions of you and your team members to the 
 Upload the completed form to Marmoset as **assign11peereval**.  You *must* submit it in PDF format, which means that you must save the final document version as a PDF.
 
 <div class="callout">
-Your self/peer evaluation <em>must</em> be submitted in PDF format.  Submissions in any other format may receive a grade of 0.
+Your self / peer evaluation <em>must</em> be submitted in PDF format.  Submissions in any other format may receive a grade of 0.
 </div>
