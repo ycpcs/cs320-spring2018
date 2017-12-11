@@ -18,6 +18,6 @@ Tuesday, March 6     | [Lab 4: SQL, Queries, Joins](lab04.html) | [CS320\_Lab04.
 Saturday, March 10   | [Lab 5: JDBC](lab05.html) | [CS320\_Lab05.zip](CS320_Lab05.zip)
 Saturday, March 17   | [Lab 6: ORM](lab06.html) | [CS320\_Lab06.zip](CS320_Lab06.zip)
 
-**You will not pass this course without completing and submitting all of the labs (withe exception of the Git Lab (Lab03), which we will do in class)**.
+**You will not pass this course without completing and submitting all of the labs (with the exception of the Git Lab (Lab03), which we will do in class)**.
 
 **You will also automatically fail the course, as well as receive an Academic Integrity Violation, if you submit work that was completed by someone else, and/or submit any portion of code taken from the Library Application Example that I provide as part of the course.**
