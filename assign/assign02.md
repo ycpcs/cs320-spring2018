@@ -62,7 +62,7 @@ Your proposal should be 1-2 pages, and contain the following information:
   in mind that I expect you to make steady progress, and that there will
   be occasional progress reports/demos.
   
-  Here is a suggested template for your [Independent Project Proposal](CS320_Independent_Project_Proposal_Template.pdf).
+  Here is a suggested template for your [Individual Project Proposal](CS320_Independent_Project_Proposal_Template.pdf).
 
 Submitting
 ==========
