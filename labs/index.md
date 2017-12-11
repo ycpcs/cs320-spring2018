@@ -9,9 +9,9 @@ The labs provide extremely important concepts and techniques that will be essent
 
 In fact, your team will likley be using Lab06 as the basis for your team project's database.  If you ask any of the teams from last year, they will all tell you that the database portion of their project implementation was the most time-consuming and difficult of their various project's tasks.
 
-**You will not pass this course without completing and submitting all of them (except for Lab03-Git, which we will do in class)**.
+**You will not pass this course without completing and submitting all of the labs (withe exception of the Git Lab (Lab03), which we will do in class)**.
 
-**You will also automatically fail the course, as well as receive an Academic Integrity Violation, if you submit work that was completed by someone else, and/or submit any portion of code taken from the Library Application Example that I have provided as part of the course.
+**You will also automatically fail the course, as well as receive an Academic Integrity Violation, if you submit work that was completed by someone else, and/or submit any portion of code taken from the Library Application Example that I have provided as part of the course.**
 
 Due Date | Lab | File
 ---- | --- | ----
