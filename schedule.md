@@ -13,8 +13,8 @@ Date   | Topic/Activity | Reading
 ------ | -------------- | -------
 Jan 17 | Course Introduction | [Lecture 1: Course Overview, OOP](lectures/lecture01.html)
 Jan 19 | HTML and CSS<br> HTML and CSS Lab Assigned | [Lecture 7: HTML and CSS](lectures/lecture07.html)<br> [Lab 1: HTML and CSS Lab](./labs/lab01.html)
-Jan 22 | Web Applications<br> Web Applications Lab Assigned | [Lecture 8: Web Applications](lectures/lecture08.html)<br> [Lab 2: Web Applications Lab](./labs/lab02.html)
-Jan 24 | Web Applications Lab (in class) | [Lab 2: Web Applications Lab](./labs/lab02.html)
+Jan 22 | Web Applications<br> Web Applications Lab Assigned | [Lecture 8: Web Applications](lectures/lecture08.html)
+Jan 24 | Web Applications Lab (in class) | [Lab 2: Web Applications I](./labs/lab02.html)<br> [Lab 2: Web Applications II](./labs/lab02a.html)
 Jan 26 | Development Process, Agile Development | UD: Chapter 2, [Lecture 2: Development Process](lectures/lecture02.html)<br> [Manifesto for Agile Software Development](http://www.agilemanifesto.org/)
 Jan 29 | Agile Development and Scrum  | [Questions and Discussion 1](lectures/XPdiscussion1_5.html)
 Jan 31 | Agile and Scrum Guest Lecture | [Questions and Discussion 2](lectures/XPdiscussion6_7.html)
