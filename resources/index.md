@@ -5,30 +5,30 @@ title: "Resources"
 
 This page links to useful resources.
 
-[Fetching and merging changes from within Eclipse](fetchMerge.html)
-
-Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
-
-[UML: A Great Explanation of UML Relationships](http://usna86-techbits.blogspot.de/2012/11/uml-class-diagram-relationships.html)
-
-[CS320\_Derby.zip](CS320_Derby.zip) &mdash; Eclipse project with jarfiles for Apache Derby (relational database)
-
-[W3Schools: Great Tutorial site for HTML, CSS, Java Script, SQL, PHP](http://www.w3schools.com) - Go here first for HTML/CSS tutorials.
+[W3Schools: Tutorial site for HTML, CSS, Java Script, SQL, PHP](http://www.w3schools.com) - Go here first for HTML/CSS tutorials.
 
 [Bootstrap: A visual editor for creating web front-ends](http://www.w3schools.com/bootstrap/default.asp)
 
 [Brackets: A visual editor for working on HTML/CSS](http://brackets.io/)
 
-[Great Tutorial Site for Creating HTML Forms](http://www.htmliseasy.com/form_tutor/lesson01.html)
+[Tutorial Site for Creating HTML Forms](http://www.htmliseasy.com/form_tutor/lesson01.html)
 
-[Great Tutorial site for JSP](http://www.tutorialspoint.com/jsp/index.htm) - note that this references Apache Tomcat, but much of it should apply to Eclipse Jetty.
+[Tutorial site for working with JSPs](http://www.tutorialspoint.com/jsp/index.htm) - note that this references Apache Tomcat, but much of it should apply to Eclipse Jetty.
 
-[Working with JSTL](http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm) - linked from above site.
+[Tutorial Site for Working with JSTL](http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm) - linked from above site.
 
 [Creating and Using Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm) - linked from above site.
 
-[An Java email validator class using regex (regular expressions)](https://www.mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/
+[A Java email validator class using regex (regular expressions)](https://www.mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/
 )
+
+[UML: A Great Explanation of UML Relationships](http://usna86-techbits.blogspot.de/2012/11/uml-class-diagram-relationships.html)
+
+Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
+
+[Fetching and merging changes from within Eclipse](fetchMerge.html)
+
+[CS320\_Derby.zip](CS320_Derby.zip) &mdash; Eclipse project with jarfiles for Apache Derby (relational database)
 
 [CS320\_Library\_Example\_2018.zip](CS320_Library_Example_2018.zip) &mdash; Eclipse project that ties the [Web Applications Lab](../labs/lab02.html) together with the [ORM Lab](../labs/lab06.html).  This application places a web front-end on the SQL transactions from Lab06, as well as provides examples for creating a Derby database from CSV files, how to use session information after login, and how to use JSTL to display a list of complex objects in a JSP.  It has been updated to incorporate a many-to-many relationship between **Books** and **Authors**, using a junction table (**booksAuthors**) that cross-references **book_id**'s with **author_id**'s.  It also contains some example JUnit Tests for testing the Derby database queries.
 
