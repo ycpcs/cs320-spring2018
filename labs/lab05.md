@@ -10,9 +10,7 @@ Download [CS320\_Lab05.zip](CS320_Lab05.zip). Import it into your Eclipse worksp
 
 The lab contains a database called **test.db** which is the books database described in [Lecture 9](../lectures/lecture09.html).
 
-You may work individually or with your one of more members of your team.  If you choose to work as a **team**, you **MUST** truly work on the lab in a collaborative fashion.  You **MUST** also indicate with comments at the top of your submission which members of your team contributed to the solution, and the percentage contribution of each team member, including yourself.  Make sure that the percentage contributions you assign add up to 100%.  Each contributing team member must then submit the same solution to Marmoset, with the exception that each member individually assesses the relative effort of all contributing members.  Your individual grade on the lab will be based on the quality of your team's solution, multiplied by your relative effort.
-
-**NOTE:** You will each be individually responsible for being able to construct SQL queries, to establish a connection between a Java program and a SQL database, and to write SQL queries embedded in Java code.  This **WILL** come up on the exam.
+**NOTE:** You must work individually on this lab.  It is imperative that everyone on your team be able to construct SQL queries, to establish a connection between a Java program and a SQL database, and to write SQL queries embedded in Java code.  This **WILL** come up on the exam.
 
 Task
 ====

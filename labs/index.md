@@ -7,7 +7,7 @@ This page lists the lab activities.  We might get started on these labs in class
 
 The labs provide extremely important concepts and techniques that will be essential for completing your team project.  The given due dates are the enforced dates, but I **HIGHLY** encourage you to work on the SQL-related labs (Lab04, Lab05, and Lab06) ahead of time, as they are essential for getting a good start on your persistent database design and implementation.
 
-In fact, your team will likley be using Lab06 as the basis for your team project's database.  If you ask any of the teams from last year, they will all tell you that the database portion of their project implementation was the most time-consuming and difficult of their various project's tasks.
+In fact, your team will likley be using Lab06 as the basis for your team project's database.  If you ask any of the teams from previous years, they will all tell you that the database portion of their project implementation was the most time-consuming and difficult of their various project's tasks.
 
 Due Date | Lab | File
 ---- | --- | ----

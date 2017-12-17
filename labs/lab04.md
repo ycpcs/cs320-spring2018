@@ -47,10 +47,12 @@ Now, use the **alter table** command to establish **author_id** as a foreign key
     
 The schemas of the database tables are described in the notes for [Lecture 9](../lectures/lecture09.html).
 
+**NOTE:** You must work individually on this lab.  It is imperative that everyone on your team be able to construct SQL queries, to establish a connection between a Java program and a SQL database, and to write SQL queries embedded in Java code.  This **WILL** come up on the exam.
+
 Task
 ====
 
-Compose and execute SQL queries that retrieve the following information.  For the later queries, you will have to do some research at **[w3schools](http://www.w3schools.com/sql/default.asp)** in order to learn the proper SQL commands to complete the query.
+Compose and execute SQL queries that retrieve the following information.  For the later queries, you will have to do some research at **[w3schools](http://www.w3schools.com/sql/default.asp)** in order to learn the proper SQL commands to complete the query.  This is intended as an exercise to familiarize you with the w3schools website, as well as reinforce researching for new information on your own.
 
 Each query should be terminated with a semicolon (**;**). For example, here is session showing a query to select all of the tuples in the **authors** table (user input in **bold**):
 
@@ -84,7 +86,7 @@ Make sure to verify that the results of each query are correct by comparing agai
 -	the title and author for each of Berkeley Breathed's and Bill Watterson's books, sorted in ascending order by title
 -   the author(s) and title for each book with the word "Time" or "Universe" in the title, sorted in ascending order by lastname, and then ascending by title.
 -   attempt to insert a new book into the **books** table, with an **author_id** that does not appear in the **authors** table (this attempt should fail, due to specifying an invalid **foreign key** for **author_id**)
--   insert yourself as a new author in the the **authors** table (do not specify an author_id, Derby will do that for you, since **author_id** is the auto-generated primary key for the **authors** table)
+-   insert yourself as a new author in the **authors** table (do not specify an author_id, Derby will do that for you, since **author_id** is the auto-generated primary key for the **authors** table)
 -   retrieve the **author_id** from the **authors** table for your entry and insert a new book into the **books** table, using your **author_id**
 -   now retrieve all of the information for your book (title, ISBN, published, lastname, firstname)
 

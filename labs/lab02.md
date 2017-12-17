@@ -16,6 +16,8 @@ To run the AddNumbers webapp, run **Main.java** as a Java application and enter 
 
 > [http://localhost:8081/lab02/addNumbers](http://localhost:8081/lab02/addNumbers)
 
+**NOTE:** You must work individually on this lab.  It is imperative that everyone on your team be able to full comprehend, design, implement, toubleshoot, and debug the complete architecture of a standard client-server application.  This **WILL** come up on the exam.
+
 **NOTE:** If you get a mass of Java JSP compiler errors returned from the local host, as well as a heaping pile of red text in the Eclipse console, go to the [Notes for Lab 2 Page](lab02_notes.html) for instructions on solving the problem.  There are also some additional notes at the bottom of that page for other problems that you might encounter.
 
 Your Task
@@ -30,6 +32,7 @@ To run the webapp, run **Main.java** as a Java application and enter the followi
 > [http://localhost:8081/lab02/guessingGame](http://localhost:8081/lab02/guessingGame)
 
 Lastly, implement JUnit tests to test the **GuessingGame** and **GuessingGameController** classes.
+
 
 Submitting
 ==========

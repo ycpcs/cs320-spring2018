@@ -15,12 +15,7 @@ Start by creating **test.db**, which is the [books database](../lectures/lecture
 
 If you refresh your **CS320_Lab06** project, you should see the **test.db** directory.
 
-I **HIGHLY** encourage you to work on this lab as a team.  It contains much functionality that you are going to want to use for your project.  Please "explore" the entire application to discover how to initialize a database from CSV files, as well as how to create a "fake" database from the same CSV files from which you will initialize your SQL database.
-
-If you do choose to work as a team, you **MUST** truly work on the lab in a collaborative fashion.  You **MUST** also indicate with comments at the top of your submission which members of your team contributed to the solution, and the percentage contribution of each team member, including yourself.  Make sure that the percentage contributions you assign add up to 100%.  Each contributing team member must then submit the same solution to Marmoset, with the exception that each member individually assesses the relative effort of all contributing members.  Your individual grade on the lab will be based on the quality of your team's solution, multiplied by your relative effort.
-
-**NOTE:** You will each be individually responsible for being able to construct SQL queries, to establish a connection between a Java program and a SQL database, and to write SQL queries embedded in Java code.  This **WILL** come up on the exam.
-
+**NOTE:** You must work individually on this lab.  It is imperative that everyone on your team be able to construct SQL queries, to establish a connection between a Java program and a SQL database, and to write SQL queries embedded in Java code.  This **WILL** come up on the exam.
 
 # Task
 
@@ -34,7 +29,7 @@ Using **TitleQuery** as a model, write your own programs (separate classes with 
 
 1. Find all books written by the author whose last name is specified by the user. Return the books in the same form as the **TitleQuery** program.
 
-2. Given the full (first and last) name of an author, a title, an ISBN, and a publish year, insert the book into the database. The program should add a new tuple to the **authors** table if the author doesn't already exist. If the author does exist already, the program should use that author's **author\_id**.  Use the SQL **insert** statement to insert the new tuple(s).  **NOTE:**  This is the same set of SQL queries as the the third problem in Lab05.  You are welcome to reuse your code for that solution - in fact, if you are working as a team to solve and submit this lab, you are welcome to use the code from the teammate that had the best solution.
+2. Given the full (first and last) name of an author, a title, an ISBN, and a publish year, insert the book into the database. The program should add a new tuple to the **authors** table if the author doesn't already exist. If the author does exist already, the program should use that author's **author\_id**.  Use the SQL **insert** statement to insert the new tuple(s).  **NOTE:**  This is the same set of SQL queries as the the third problem in Lab05.  You are welcome to reuse your code for that solution.
 
 ## Hints
 

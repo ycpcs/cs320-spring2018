@@ -20,6 +20,8 @@ The content area should be to the left and the sidebar (contact info) should be 
 
 Use **div** and **span** elements with id and class attributes to specify the body of the HTML document. All visual styling should be done separately in CSS rules.
 
+**NOTE:** You must work individually on this lab.  It is imperative that everyone on your team be able to develop web page layouts using HTML and CSS.  This **WILL** come up on the exam.
+
 Hints
 -----
 
