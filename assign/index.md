@@ -17,6 +17,7 @@ Assignment | Type | Due
 [Assignment 6: Problem domain analysis](assign06.html) | Team | Sat, Feb 24th by 11:59 PM
 [Assignment 8: Team Project Code and Report](assign08.html) | Team | Sat, May 5th by 11:59 PM
 [Assignment 8: Team Project Presentation and Demo](assign08.html) | Team | Wed, May 9th (Final Exam Period)
-[Assignment 9: Individual Project Deliverables](assign09.html) | Individual | Thu, Apr 26th by 11:59 PM
+[Assignment 9: Individual Project Demo](assign09.html) | Individual | Mon, Apr 23rd (in class)
+[Assignment 9: Individual Project Deliverables](assign09.html) | Individual | Tue, Apr 24th by 11:59 PM
 [Assignment 10: Team Project Reflection](assign10.html) | Individual | Tues, May 8th by 11:59 PM
-[Assignment 11: Team Project Self /Peer Evaluation](assign11.html) | Individual | Midterm: Sun, Apr 8 by 11:59 PM<br>Final: Tues, May 8th by 11:59 PM
+[Assignment 11: Team Project Self / Peer Evaluation](assign11.html) | Individual | Midterm: Sun, Apr 8th by 11:59 PM<br>Final: Tues, May 8th by 11:59 PM
