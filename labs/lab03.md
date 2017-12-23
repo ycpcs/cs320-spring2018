@@ -25,7 +25,7 @@ Another thing to keep in mind:
 Git is one of the most awesome and powerful software development tools ever created.
 </div>
 
-Like [OO Analysis](../lectures/lecture05.html), Git proficiency is a software development super power.
+Like [OO Analysis](../lectures/lecture10.html), Git proficiency is a software development super power.
 
 ## Step 1: Create an SSH keypair
 
