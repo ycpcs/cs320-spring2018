@@ -18,7 +18,7 @@ Jan 24 | Web Applications Lab (in class) | [Lab 2: Web Applications I](./labs/la
 Jan 26 | Development Process, Agile Development | UD: Chapter 2, [Lecture 6: Development Process](lectures/lecture06.html)<br> [Manifesto for Agile Software Development](http://www.agilemanifesto.org/)
 Jan 29 | Agile Development and Scrum  | [Questions and Discussion 1](lectures/XPdiscussion1_5.html)
 Jan 31 | Agile and Scrum Guest Lecture | [Questions and Discussion 2](lectures/XPdiscussion6_7.html)
-Feb 2  | Requirements | UD: Chapter 9, [Lecture 3: Requirements, Use Cases](lectures/lecture03.html)
+Feb 2  | Requirements | UD: Chapter 9, [Lecture 8: Requirements, Use Cases](lectures/lecture08.html)
 Feb 5  | Use Case Exercise |
 Feb 7  | Team Project Session: Use Cases (in class) | 
 Feb 9  | UML and OO Analysis | UD: Chapter 3, [Lecture 9: UML Class Diagrams](lectures/lecture09.html)<br> [Lecture 10: OO Analysis](lectures/lecture10.html)
