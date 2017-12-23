@@ -1,96 +1,261 @@
 ---
 layout: default
-title: "Lecture 2: Development Process"
+title: "Lecture 7: HTML and CSS"
 ---
 
-Development process
-===================
+HTML
+====
 
-[From Chapter 2 in UML Distilled]
+HTML and its companion language CSS form the markup language used to render web resources for people (rather than programs). HTML/CSS allow text and images to be styled and formatted in a way that is meaningful to human users.
 
-A development process is a structured collection of practices and guidelines that all team members follow.
+Hello, world in HTML
+--------------------
 
-At the beginning of the process, we start with a problem that we want to solve.
+    <!DOCTYPE html>
 
-At the "end" of the process, we have a finished system.
+    <html>
+        <head>
+            <title>Hello, world!</title>
+        </head>
 
-"End" is a bit misleading; typically, the software we develop will be continuously modified and extended. It's more accurate to say that at some point, the software will be deployed and officially "in-use".
+        <body>
+            Hello, world!
+        </body>
+    </html>
 
-Having a process helps the members of the team work together.
+<a href="lecture07/hello.html">Link</a>
 
-As we've discussed, two of the most-widely-used kinds of processes are waterfall and iterative.
+Try saving this in a text file with a **.html** file extension and then open it in a web browser.
 
-Waterfall is
+HTML documents are trees of elements
+------------------------------------
 
-> Requirements → Analysis → Design → Implementation → Deployment
+An HTML document is a tree of elements. Each element is delimited by a *start tag* and an *end tag*. Each tag can contain an arbitrary number of children. Each child is either text or an element.
 
-An iterative process is a series of short iterations (2 weeks), each of which is a "mini-waterfall".
+In the **Hello, world** document, the parent element is **html**. It has two children, **head** and **body**. The **head** element has a child element, **title**. The **body** element has one child, which is text (the string **Hello, world!**). You will see this basic structure (**html**, **head**, **body**) in all HTML documents. The **head** element contains *meta-information* about the document, such as its title. The **body** contains the elements that the user sees in the body of the web page.
 
-Waterfall is easy to understand, but is too inflexible because there is no opportunity for feedback in the process. E.g., during analysis we may discover new requirements, during Design we may learn more about the problem, etc. Another major weakness of the waterfall model is that estimation is very difficult; it's very hard to predict how long we will need to complete each stage. It is also risky to assume that the entire system will "come together" at the end of the Implementation phase.
+The tree of elements is known as the **Document Object Model**, or **DOM**.
 
-The overall goal in an iterative process is to make sure that the software is always in a consistent, stable state. At the end of each iteration, we should have a correctly working system that achieves some subset of the requirements.
+It looks boring: how do I jazz it up?
+-------------------------------------
 
-Keeping the iterations short makes estimation and planning easier: we can get a pretty good idea of the rate of progress by seeing (on average) what % of the requirements we can finish at the end of each increment
+Because HTML is a visual medium, it can use colors, fonts, and layout to convey information more effectively.
 
-The risk of trying to "put together" the entire system at the end is mitigated because the software is in a high-quality, "ready to deploy" state at all times.
+*CSS*, the *Cascading Style Sheet* language, allows visual properties to be associated with HTML elements. Using CSS, you can control the font, color, and position of each element.
 
-Specific Processes
-------------------
+Each HTML document can have one or more CSS stylesheets associated with it. A CSS stylesheet uses *selectors* to match elements in the HTML document and set CSS properties which control things like font, color, size, etc.
 
-Many specific processes have been proposed over the years - too many to mention them all.
+Modified version of Hello, world:
 
-One important characteristic of a process is the level of ceremony. A high-ceremony process is one in which each development activity is done in a very specific way, and where the artifacts created at each step (use cases, functional specifications, analysis and design models, etc.) may be highly detailed. A high-ceremony process may be necessary if the system being developed is safety-critical (medical device, weapons, spacecraft, avionics, etc.) For most projects, a lower-ceremony process probably makes more sense.
+<pre>
+&lt;!DOCTYPE html&gt;
 
-Extreme Programming (XP) is a good general choice for non-safety-critical projects:
+&lt;html&gt;
+        &lt;head&gt;
+                &lt;title&gt;Hello, world!&lt;/title&gt;
+                <b>&lt;style type="text/css"&gt;
+                body {
+                        font-size: 120%;
+                        color: #80FFFF;
+                        background-color: black;
+                }
+                &lt;/style&gt;</b>
+        &lt;/head&gt;
 
-It's agile --- emphasizing
+        &lt;body&gt;
+                Hello, world!
+        &lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
--   incremental development
--   direct and continuous interaction with customers
--   adapting to changing requirements by keeping the software flexible
+<a href="lecture07/helloJazzy.html">Link</a>
 
-It's low-ceremony
+In this version, we used a selector which matches the **body** element and used it to change the size, color, and background color of the body element.
 
-Agile Processes
+Note that normally we don't embed CSS rules directly in the HTML document, but instead save them in a separate file. This makes it easier to apply a common set of CSS rules to a number of documents, in order to give those documents a common visual appearance. However, for testing purposes, you can put them in the **style** element within the **head** element.
+
+divs and spans
+--------------
+
+Any interesting HTML document doesn't just contain an undifferentiated mass of text. Instead, the text will be broken up to form a logical structure. The **div** and **span** elements help you to define this structure.
+
+A **span** element is a linear sequence of text: basically, a sentence (or part of a sentence).
+
+A **div** element is a "block" which encompasses other elements and text, allowing you to mark entire regions of a document.
+
+Let's say we're going to make a website to display items (kinds of fruit) we have in our inventory database. We'll want to display a page describing each item. Each item page will contain several distinct sections:
+
+-   the name of the item
+-   a picture of the item (you can display images in an HTML document)
+-   the description of the item
+-   information about the vendor which supplies the item
+
+Example HTML:
+
+    <!DOCTYPE html>
+
+    <html>
+        <head>
+            <title>Mangoes</title>
+        </head>
+
+        <body>
+            <div id="itemName">
+                Mangoes
+            </div>
+
+            <div id="itemPicture">
+                <img src="mango.jpg" />
+            </div>
+
+            <div id="itemDescription">
+                Mangoes are a delicious tropical fruit.
+                They are pink/orange in color and have a
+                delightful fragrance.  Werewolves and vampires
+                both shun mangoes, but they have no effect on
+                zombies.
+            </div>
+
+            <div id="itemVendor">
+                Supplied by FruitCo, Inc.
+            </div>
+        </body>
+    </html>
+
+<a href="lecture07/item-mangoes.html">Link</a>
+
+Notice that each **div** element in the HTML has an **id** attribute. An **id** attribute is a way to assign an "identity" to an element so that it can be styled with a CSS rule. This is an example of *semantic markup*: we are using **div**s and element ids to specify the *meaning* of the HTML content, without specifying how that content should be presented.
+
+Clean separation of semantic content and presentation (visual appearance) is important, because it allows the developers who work on the functionality of a website to work largely independently of the visual designers who define the layout and appearance of the website.
+
+A CSS selector can match an element by its **id** attribute:
+
+<pre>
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+        &lt;head&gt;
+                &lt;title&gt;Mangoes&lt;/title&gt;
+                <b>&lt;style type="text/css"&gt;
+                #itemName {
+                        float: left;
+                        font-size: 300%;
+                        font-weight: bold;
+                        color: #000080;
+                }
+
+                #itemPicture {
+                        float: left;
+                        margin-left: 20px;
+                }
+
+                #itemDescription {
+                        clear: both;
+                        margin-left: 20px;
+                        padding: 10px;
+                        background-color: #FAFAD2;
+                        font-style: italic;
+                }
+
+                #itemVendor {
+                        margin-top: 10px;
+                        border-top: 2px solid silver;
+                        border-bottom: 2px solid silver;
+                }
+                &lt;/style&gt;</b>
+        &lt;/head&gt;
+
+        &lt;body&gt;
+                &lt;div id="itemName"&gt;
+                        Mangoes
+                &lt;/div&gt;
+
+                &lt;div id="itemPicture"&gt;
+                        &lt;img src="mango.jpg" /&gt;
+                &lt;/div&gt;
+
+                &lt;div id="itemDescription"&gt;
+                        Mangoes are a delicious tropical fruit.
+                        They are pink/orange in color and have a
+                        delightful fragrance.  Werewolves and vampires
+                        both shun mangoes, but they have no effect on
+                        zombies.
+                &lt;/div&gt;
+
+                &lt;div id="itemVendor"&gt;
+                        Supplied by FruitCo, Inc.
+                &lt;/div&gt;
+        &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<a href="lecture07/item-mangoes-styled.html">Link</a>
+
+What happened? We appled the **float: left** CSS property to the first two divs, arranging them from left to right (rather than stacking them vertically as is the default for **div** elements). Applying the **clear: both** property to the **itemDescription** element causes it to be placed below the previous elements (otherwise, the browser would attempt to flow this element's contents around the floated elements.) Visual styles are applied to the divs in order to give each one a distinct appearance.
+
+Element classes
 ---------------
 
-Here is a sketch of what working within an agile process might look like.
+A limitation of using **id** attributes is that elements cannot share the same id. So, CSS rules that select an element by an id can only apply to one element.
 
-> <img style="width: 700px;" src="figures/xpProcess.png" />
+A *class* is a way of designating an arbitrary number of elements as sharing some common semantic property. For example, we might want distinguish beast names from other text. Consider the following document:
 
-The customer is in continuous contact with the development team, and is continually
+    <!DOCTYPE html>
 
--   explaining requirements (including changes to requirements)
--   prioritizing requirements
+    <html>
+        <head>
+            <title>Favorite Beasts</title>
+        </head>
 
-At the beginning of each increment (let's say we will have two week increments), the customer chooses a set of requirements to be addressed in that increment, in order from most important to least important. The requirements are recorded as use cases.
+        <body>
+            <div class="rant">
+                I like <span class="beastName">Unicorns</span>.  I'm not as fond
+                of <span class="beastName">Manticores</span>.
+            </div>
 
-The developers take the use cases, and use them to update the analysis and design models. This step is necessary because the existing design may not have anticipated the requirement being addressed by the use case, and needs to be extended to address the requirement. If the design model changes, the code is refactored to conform to the new design. Refactoring means changing the internal structure of code without changing WHAT the code does. In other words, after refactoring a program, the functionality of the program is exactly the same.
+            <div class="rant">
+                Don't ask me about <span class="beastName">Gelatinous Cubes</span>
+                or <span class="beastName">Floating Eyes</span>.
+            </div>
+        </body>
+    </html>
 
-Examples of refactoring:
+<a href="lecture07/beastNames.html">Link</a>
 
--   Moving a method from one class to another
--   Moving a field from one class to another
--   Splitting a single class into two classes
--   Splitting a single class into a class hierarchy (superclass and subclasses)
+A version in which the beast names are styled differently (using a font from [Google Fonts](http://www.google.com/fonts)) than the surrounding text (and we also add a margin above/below the divs):
 
-As developers refactor the code, they run all of the unit tests to make sure that the refactoring does not introduce any new bugs. A unit test are low-level (fine-grained) tests that check whether particular classes/methods work correctly. The refactoring is complete when
+<pre>
+&lt;!DOCTYPE html&gt;
 
--   the code matches the updated design
--   all of the pre-existing unit tests pass
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Favorite Beasts&lt;/title&gt;
+        <b>&lt;link href='http://fonts.googleapis.com/css?family=Jolly+Lodger' rel='stylesheet' type='text/css'&gt;
+        &lt;style type="text/css"&gt;
+        html { font-size: 200%; }
+        .rant {
+                margin: 8px 0px;
+        }
 
-Once refactoring is complete, the developers modify the code to add the new features (addressing the requirements selected by the customer). As they work, the developers develop new unit tests to ensure the new classes and methods they are adding work correctly, and continue to run the old unit tests to make sure that no regressions have been introduced. A regression is a bug in which a change to the code causes a feature that previously worked to no longer work correctly.
+        .beastName {
+                font-family: 'Jolly Lodger', cursive;
+                font-weight: bold;
+        }
+        &lt;/style&gt;</b>
+    &lt;/head&gt;
 
-At the end of the increment, the developers have implemented some number of new requirements.
+    &lt;body&gt;
+        &lt;div class="rant"&gt;
+            I like &lt;span class="beastName"&gt;Unicorns&lt;/span&gt;.  I'm not as fond
+            of &lt;span class="beastName"&gt;Manticores&lt;/span&gt;.
+        &lt;/div&gt;
 
-If all of the customer's chosen requirements for the week have been addressed, great. Everyone's happy.
+        &lt;div class="rant"&gt;
+            Don't ask me about &lt;span class="beastName"&gt;Gelatinous Cubes&lt;/span&gt;
+            or &lt;span class="beastName"&gt;Floating Eyes&lt;/span&gt;.
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
-If some of the customer's chosen requrements have not been addressed, then the schedule has slipped. This is not necessarily bad; some aspect of a requirement may have been more complicated than anticipated. Customer and development team adjust their planning appropriately. Occasional schedule slips may be tolerated. Frequent schedule slips mean that the developers are overestimating their rate of progress, and need to avoid over-committing in future increments.
-
-There are a lot of good things about agile processes:
-
--   The rate of progress is always apparent - no big surprises.
--   Changing requirements are handled easily.
--   The customer is always "in the loop" and decides what work will be done. Developers don't spend time implementing unnecessary features. The most important features are the ones implemented first.
--   The system remains in a "ready to deploy" state at all times. (It might not implement all required features, but the features that are implemented work correctly.)
-
+<a href="lecture07/beastNames-styled.html">Link</a>

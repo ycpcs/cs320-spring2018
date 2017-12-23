@@ -1,60 +1,39 @@
 ---
 layout: default
-title: "Lecture 10: Database Applications, JDBC"
+title: "Lecture 5: OO Analysis"
 ---
 
-In [Lab 4](../labs/lab04.html) we experimented with [Derby](https://db.apache.org/derby/) by typing queries interactively (using a simple front-end program).
+Analysis is the development activity where we try to fully understand the problem domain, and build a model of the problem domain that will help us create a system that solves the problem we want to solve.
 
-Another very useful way to interact with a database is from a program that you write. Programs which communicate with a database are often referred to as *database applications*.
+The input to analysis is the requirements. Requirements can be specified as high-level requirements, detailed use cases, etc.
 
-JDBC is the standard Java API for writing database applications. It provides a common set of functions for accessing and modifying data in SQL databases.
+Basic idea:
 
-JDBC Concepts
-=============
+> *Textual analysis*: mine the input for the important terms and concepts in the problem domain
+>
+> Model the problem domain: using a UML class diagram
+>
+> > classes
+> >
+> > *relationships* between classes [question: what kinds of relationships are there?]
+> >
+> > important methods - those showing the important *behavior* of the classes
 
-Here are some of the basic JDBC concepts you will employ.
+That's really all there is to analysis.
 
-Drivers
--------
+Analysis acts as a bridge between requirements and design. The analysis model will serve as a starting point for the design model.
 
-A JDBC *driver* is a code library which implements the JDBC API for a particular back-end database. Most popular relational databases include a JDBC driver.
+Note that there is an important conceptual difference between the analysis and design models:
 
-Generally, to add support for a particular database implementation to your application, you will include its JDBC driver in your project. Your application will need to *load* the driver by instantiating its main class.
+> the analysis model models the problem domain
+>
+> the design model models the solution domain
 
-Connections
------------
+For example: a GUI is necessary to allow the user to play TicTacToe, but it is not part of the problem of playing TicTacToe. For this reason, the GUI classes will be part of the design model for TicTacToe, but not part of the analysis model.
 
-A JDBC *connection* is an object that allows your application to communicate with a particular instance of the database.
+The classes which are part of the analysis model are often referred to as the "object model".
 
-Connections are specified as URL strings. The URL string encodes both the driver to be used and also the location of the database.
+In-class activity
+=================
 
-The JDBC **DriverManager** class creates connection objects.
-
-PreparedStatement
------------------
-
-A *prepared statement* object represents a particular query or insert/update/delete statement to be executed.
-
-A prepared statement may contain *placeholders* for information that will be "filled in" when the statement is executed. This allows the same statement to be executed many times, supplying different data each time.
-
-For example: here is a query that searches for books matching a particular title:
-
-    select authors.lastname, authors.firstname, books.title, books.isbn, books.published
-        from authors, books
-        where authors.author_id = books.author_id and
-              books.title = ?
-
-The question mark (**?**) is a placeholder for a particular book title. So, this query is a general "template" for finding books given a title. If we make this query a prepared statement, we can use it as many times as desired to find books matching various titles. Each time we execute the prepared statement, we will substitute a specific title for the placeholder.
-
-ResultSet
----------
-
-A *result set* is returned as the result of executing a prepared statement. The result set is essentially an iterator for the tuples returned as the result of the query.
-
-The data types of the returned attribute values are mapped onto Java data types. Typical mappings include:
-
-> SQL type | Java type
-> -------- | ---------
-> VARCHAR | java.lang.String
-> INTEGER | java.lang.Integer
-> DATE | java.sql.Date
+Analysis model for Uber (ride-sharing app and system).  We will work from a common set of scenarios, requirements, and use cases.

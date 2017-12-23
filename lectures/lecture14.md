@@ -1,56 +1,60 @@
 ---
 layout: default
-title: "Lecture 14: Static Analysis"
+title: "Lecture 10: Database Applications, JDBC"
 ---
 
-# Static Analysis Tools
+In [Lab 4](../labs/lab04.html) we experimented with [Derby](https://db.apache.org/derby/) by typing queries interactively (using a simple front-end program).
 
-A static analyzer inspects the program's code (source code or possibly object code) in order to look for bugs in the program.  You can think of this as being like an automatic code inspection.
+Another very useful way to interact with a database is from a program that you write. Programs which communicate with a database are often referred to as *database applications*.
 
-Advantages
+JDBC is the standard Java API for writing database applications. It provides a common set of functions for accessing and modifying data in SQL databases.
 
--  Fast
--  Automatic
+JDBC Concepts
+=============
 
-Software can adopt a brute-force checking approach: for example, testing very large numbers of paths through the program that would be hard to do through testing and code inspection.
+Here are some of the basic JDBC concepts you will employ.
 
-Disadvantages
+Drivers
+-------
 
--  Nontrivial program properties are undecidable, meaning that a static analyzer cannot be completely precise in its determination of possible program behaviors.  This means that the static analyzer must estimate possible program behaviors.
+A JDBC *driver* is a code library which implements the JDBC API for a particular back-end database. Most popular relational databases include a JDBC driver.
 
-If the static analysis approximates in the direction of consistently overestimating possible program behaviors, then it may produce some false warnings: program executions that would be a bug, but which can't actually happen in practice.  However, the static analysis warnings are guaranteed to not miss any bugs (of whatever particular kind of bug the analyzer is looking for).
+Generally, to add support for a particular database implementation to your application, you will include its JDBC driver in your project. Your application will need to *load* the driver by instantiating its main class.
 
-If the static analysis approximates in the direction of consistently underestimating possible program behaviors, then it may miss some real bugs.  However, it will never produce any false warnings.
+Connections
+-----------
 
-If the static analysis does not approximate consistently in either direction, than both false warnings and missed bugs are possible.
+A JDBC *connection* is an object that allows your application to communicate with a particular instance of the database.
 
-In some ways, it would seem like overestimating is always the best alternative.  However, if the static analyzer produces 100,000 false warnings for every real bug it finds, then it will take too much time to sort the real problems from all of the noise.
+Connections are specified as URL strings. The URL string encodes both the driver to be used and also the location of the database.
 
-Consistenly underestimating would also seem to be nice, because we're guaranteed not to have to look at any false warnings.  However, if the static analyzer misses too many real bugs (and possibly doesn't find any bugs at all), then it's not useful.
+The JDBC **DriverManager** class creates connection objects.
 
-FindBugs
---------
+PreparedStatement
+-----------------
 
-In practice, it is possible to engineer a static analyzer to make tradeoffs between overestimating and underestimating by trying to focus on likely program behaviors.  One way that static analyzers can do this is by making use of common idioms appearing in code.  Programmers tend to solve similar problems in similar ways.  This means that both correct code and incorrect code will tend to follow common patterns.  These patterns can be recognized by the static analyzer to help find bugs, and also to help weed out false warnings.
+A *prepared statement* object represents a particular query or insert/update/delete statement to be executed.
 
-[FindBugs](http://findbugs.sourceforge.net/) is a static analysis tool which focuses on finding bugs which result from common programming mistakes.
+A prepared statement may contain *placeholders* for information that will be "filled in" when the statement is executed. This allows the same statement to be executed many times, supplying different data each time.
 
-[Examples of bugs found by the FindBugs static analysis tool.]
+For example: here is a query that searches for books matching a particular title:
 
-### Using static analysis effectively
+    select authors.lastname, authors.firstname, books.title, books.isbn, books.published
+        from authors, books
+        where authors.author_id = books.author_id and
+              books.title = ?
 
-Not every warning issued by a static analysis tool is necessarily interesting.
+The question mark (**?**) is a placeholder for a particular book title. So, this query is a general "template" for finding books given a title. If we make this query a prepared statement, we can use it as many times as desired to find books matching various titles. Each time we execute the prepared statement, we will substitute a specific title for the placeholder.
 
-Some kinds of warnings are not relevant (e.g., malicious code vulnerabilities in an app not exposed to malicious code)
+ResultSet
+---------
 
-False warnings - the warning is inaccurate, and doesn't identify a real defect
+A *result set* is returned as the result of executing a prepared statement. The result set is essentially an iterator for the tuples returned as the result of the query.
 
-Any false warnings in unchanging parts of the codebase will be reported over and over again as the static analyzer is used on the system
+The data types of the returned attribute values are mapped onto Java data types. Typical mappings include:
 
-Harmless bugs - the warning is accurate, but the consequences aren't harmful
-
-Same issue as false warnings - once reported, they will be reported over and over again
-
-To use static analysis effectively in the development process, we need a way of calling attention to the most interesting warnings, while excluding the uninteresting ones.
-
-A good approach is to keep a history of all static analysis warnings reported on the system over time.  Each time the static analysis is run, it is compared to the history.  All of the static analysis warnings in the latest report which were also reported in earlier reports are filtered out, leaving developers to audit only the newest warnings.
+> SQL type | Java type
+> -------- | ---------
+> VARCHAR | java.lang.String
+> INTEGER | java.lang.Integer
+> DATE | java.sql.Date

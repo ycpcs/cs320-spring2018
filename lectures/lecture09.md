@@ -1,149 +1,114 @@
 ---
 layout: default
-title: "Lecture 9: Relational Databases"
+title: "Lecture 4: UML Class Diagrams"
 ---
 
-A *relational database* is a system for storing and accessing data organized into *relations*.
+UML Class Diagrams
+==================
 
-A relation is a bag of *tuples*. Each tuple is an ordered sequence of *attributes*. Each attribute is a data value belonging to some data type. All of the tuples in a relation have the same number of attributes. In addition, the relation has a schema that is imposed on each tuple in the relation, specifying what the data type each attribute in each tuple will have. For example, the relation's schema might specify that the first attribute in each tuple is an integer.
+UML class diagrams show the important characterstics of several classes, and the relationships between classes.
 
-The relation's schema also gives a name to each attribute. The attribute names give us a convenient way of referring to tuple attributes without having to say "the first attribute", "the fourth attribute", etc.
+Classes
+-------
 
-Typical relational databases support numeric and text data types as tuple attributes. Many relational databases also support "BLOBs" (Binary Large OBjects) as attributes. A BLOB is a large, uninterpreted chunk of data. BLOBs are useful for storing files, images, and other large chunks of data in a relational database.
+A class is a rectangle. The name of the class is shown; optionally, fields and methods may be shown.
 
-Example relation
-================
+> ![image](figures/umlClass.png)
 
-Let's say we are going to use a relational database to store information about books. We might define a relation called **books** to store information about each book:
+Here is an example: the PlayerShip class (from a video game):
 
-> lastname | firstname | title | ISBN | published
-> ---------------- | ----------------- | ----- | ---- | --------
-> Hawking | Stephen | A Brief History of Time | 0-553-05340-X | 1988
-> Hawking | Stephen | The Universe in a Nutshell | 0-553-80202-3 | 2001
-> Hawking | Stephen | A Briefer History of Time | 0-553-80436-7 | 2005
-> Mlodinow | Leonard | A Briefer History of Time | 0-553-80436-7 | 2005
-> Hawking | Stephen | The Grand Design | 0-553-80537-1 | 2010
-> Mlodinow | Leonard | The Grand Design | 0-553-80537-1 | 2010
-> Adams | Douglas | The Hitchhiker's Guide to the Galaxy | 0-345-39180-3 | 1979
-> Adams | Douglas | The Restaurant at the End of the Universe | 0-345-39181-0 | 1980
-> Adams | Douglas | Life, The Universe and Everything | 0-345-39182-9 | 1982
-> Adams | Douglas | So Long, and Thanks for all the Fish | 0-345-39183-7 | 1984
+> ![image](figures/umlClassExample.png)
 
-In this relation, there are five attributes called **lastname**, **firstname**, **title**, **ISBN**, and **published**. The first four attributes are strings, the last is an integer.
+There are two fields, **x** and **y**, both with type **int**.
 
-Databases with multiple relations
-=================================
+There are four methods: **move**, **getX**, **getY**, and **fireMissile**. Method parameters (e.g., the **dx** parameter to the move method) and return types (e.g., the **int** return type for the **getX** and **getY**) may be shown.
 
-Databases will typically have many relations. One motivation for allowing multiple relations in a database is to avoid storing redundant information. For example, in the relation above, there are four tuples representing books by the same author, **Stephen Hawking**. Because the author name is represented four times, there is the possibility that this information might not be recorded consistently if the relation were modified.
+As a contrast, here is what the **PlayerShip** class might look like in Java:
 
-We can avoid this redundancy by splitting the database into two relations, **books** and **authors**:
+    public class PlayerShip {
+        private int x;
+        private int y;
 
-> The **books** relation:
->
-> book\_id | author\_id | title | ISBN | published
-> ---- | ---------- | ----- | ---- | ------
-> 1 | 7 | A Brief History of Time | 0-553-05340-X | 1988
-> 2 | 7 | The Universe in a Nutshell | 0-553-80202-3 | 2001
-> 3 | 7 | A Briefer History of Time | 0-553-80436-7 | 2005
-> 4 | 11 | A Briefer History of Time | 0-553-80436-7 | 2005
-> 5 | 7 | The Grand Design | 0-553-80537-1 | 2010
-> 6 | 11 | The Grand Design | 0-553-80537-1 | 2010
-> 7 | 1 | The Hitchhiker's Guide to the Galaxy | 0-345-39180-3 | 1979
-> 8 | 1 | The Restaurant at the End of the Universe | 0-345-39181-0 | 1980
-> 9 | 1 | Life, The Universe and Everything | 0-345-39182-9 | 1982
-> 10 | 1 | So Long, and Thanks for all the Fish | 0-345-39183-7 | 1984
->
-> The **authors** relation:
->
-> author\_id | lastname | firstname
-> ---------- | ---------------- | -----------------
-> 1 | Adams | Douglas
-> 2 | Adams | Scott
-> 3 | Breathed | Berkeley
-> 4 | Chapman | Graham
-> 5 | Cleese |  John
-> 6 | Gilliam | Terry
-> 7 | Hawking | Stephen
-> 8 | Idle | Eric
-> 9 | Jones | Terry
-> 10 | Kahneman | Daniel
-> 11 | Mlodinow | Leonard
-> 12 | Newton | Isaac
-> 13 | Palin | Michael
-> 14 | Watterson | Bill
+        public PlayerShip(int initX, int initY) {
+            ...
+        }
 
-The **books** relation has been changed so that the author of each book is represented by a unique integer identifier, the **author\_id** attribute. This attribute also exists in the **authors** relation. So, the author of each book tuple in the **books** relation is represented indirectly, by reference to a matching author tuple in the **authors** relation.
+        public void move(int dx) {
+            ...
+        }
 
-Queries, SQL
-============
+        public int getX() {
+            ...
+        }
 
-A *query* is a request to retrieve information from a database.
+        public int getY() {
+            ...
+        }
 
-**SQL**, the **Structured Query Language**, is a standard language for describing queries in relational databases. SQL is an interesting language because it is *declarative*: it describes *what* information is desired, but does not specify *how* that information is to be retrieved. It is the job of the database to figure out how to find the information requested by a query.
+        public void fireMissile() {
+            ...
+        }
+    }
 
-Example: let's say we want to find the titles of all books written by **Stephen Hawking**. In our original database, in which only the **books** relation exists, we could express that query as follows:
+Notice that even though we've omitted the method code, the class diagram does a much better job of summarizing the essential characteristics of the class.
 
-    select title
-        from books
-        where lastname = 'Hawking' and firstname = 'Stephen'
+What is the point of a UML class diagram? It gives us the ability to talk about a program (a program being a collection of classes) at a high level: talking about the DESIGN rather than the IMPLEMENTATION. Because the purpose is to foster a high level discussion, many details about classes are ommitted from UML class diagrams.
 
-A SQL **select** statement specifies a query, and has three parts:
+Relationships between classes
+=============================
 
--   Which attribute values to retrieve. In the example above, only the **title** attribute is requested.
--   Which relations are involved in the query. In the example above, only the **books** relation is queried.
--   A *condition* describing which tuples contain the desired information. In the example above, the condition requires that tuples were **lastname = 'Hawking'** and **firstname = 'Stephen'** are desired.
+An object-oriented program is a collection of objects which interact with each other. Since objects are instances of classes, deciding how different classes relate to each other is a fundamental part of designing an object-oriented program.
 
-This query will match multiple tuples in the **books** relation, and return the following **title** values:
+Associations, Aggregation, and Composition
+------------------------------------------
 
-> **A Brief History of Time**
+A common relationship between classes is when one class is used by or part of another class.
 
-> **The Universe in a Nutshell**
+Example:
 
-> **A Briefer History of Time**
+> ![image](figures/umlAssociation.png)
 
-> **The Grand Design**
+This class diagram shows that a Car object has 4 wheels, 1 Engine, and at least 1 seat. The arrows show that there is an Association between Car and Wheel, Car and Engine, and Car and Seat. The arrow head on the association indicates that the association is one-way: a Car "knows about" its Wheels, but a Wheel object does not know what Car it is part of.
 
-Joins
-=====
+A stronger kind of association is an Aggregation or Composition. These indicate a "whole to parts" relationship between the classes involved. Since a Car is made up of its parts, we are justified in making the associations into aggregations:
 
-A *join* is a query which retrieves information from multiple relations. Joins are a powerful way to exploint *associations* between tuples in different relations. The idea is that a query retrieving information from multiple relations will specify a *join condition* which links attribute values in tuples of two relations.
+> ![image](figures/umlAggregation.png)
 
-Let's consider how to find the titles of all books by **Stephen Hawking** in the second version of the database, where we have two relations, **books** and **authors**. We will need to do a join of both relations in order to connect the author name and book title, which are now stored in different relations:
+The open diamond symbol connected to the "owner" indicates Aggregation.
 
-    select books.title
-        from books, authors
-        where books.author_id = authors.author_id and
-              authors.lastname = 'Hawking' and authors.firstname = 'Stephen'
+A Composition relationship indicates that the "owned" object ceases to exist when the "owner" object ceases to exist. Since the Wheels, Engine, and Seats of a Car could exist after the Car is destroyed, we probably don't want to make these associations into Compositions.
 
-Note several interesting details of this query:
+Here is a possible example of a Composition relationship:
 
--   We are selecting **books.title** as the attribute to retrieve, explicitly noting that this attribute exists in the **books** relation
--   The **from** clause now specifies two relations, **books** and **authors**
--   The first part of the **where** clause, **books.author\_id = authors.author\_id**, is the join condition. It states that when considering pairs of tuples in the **books** and **authors** relations as candidates for retrieval, each tuple must contain the same value for the respective **author\_id** attributes.
--   In the **where** clause, each attribute is qualified by the name of the relation it is a part of. This is especially important when two relations have identically-named attributes, as is the case with the **author\_id** attributes of the **books** and **authors** relations.
+> ![image](figures/umlComposition.png)
 
-Indices
-=======
+If a Bank ceases to exist, then any Accounts existing at the Bank also cease to exist. Composition is shown by a filled diamond symbol connected to the "owner".
 
-Obviously, a database system must be able to answer all queries by returning the requested information.
+Inheritance
+-----------
 
-An important additional characteristic that database systems should have is that queries are answered *efficiently*, even if the database contains a large amount of data.
+Inheritance is an IS-A relationship between classes. For example:
 
-An *index* is an auxiliary data structure associated with a relation to increase the efficiency of queries on that relation. Specifically, an index is an auxiliary data structure which, given an attribute value or range of attribute values, quickly locates the tuple or tuples which match that value or range. An index may be applied to a single attribute, or to multiple attributes.
+> ![image](figures/umlInheritance.png)
 
-The idea is that an index helps the database focus the search for data matching a query by narrowing the number of tuples that must be checked.
+In this example, Sedan, Wagon, and FormulaOneRacer are all kinds of Cars.
 
-Sequential scans
-----------------
+Inheritance is shown by an outlined triangle arrowhead symbol attached to the superclass.
 
-Consider queries involving a single relation. Any such query can be answered by performing a *sequential scan* over the tuples in the relation: checking each tuple to see if it matches the condition(s) specified in the **where** clause, and if so, returning the values of the selected attributes.
+Inheritance is useful when the are important common characteristics between classes, but there are important behavioral differences between the classes. The superclass embodies the common characteristics. The subclasses embody the behavioral differences between different kinds of objects.
 
-For very large relations, a sequential scan may do much more work than necessary. In particular, the **where** clause may have sub-conditions that are met by only a very small number of tuples: we say that a condition matched by only a small number of tuples has high *selectivity*.
+Question: what are some behavioral differences between Sedans, Wagons, and FomulaOneRacers?
 
-To answer queries as efficiently as possible, the database should limit its scan to as small a subset of tuples as possible. This can be done using an *index*.
+Designing Classes
+=================
 
-For example: let's say that in the book database, we will frequently need to search for authors by last name. To make those queries more efficient, we can build an index on the **lastname** attribute. Queries such as
+How do we know what classes we need? Formally, we find out by gathering requirements and performing an analysis of the problem domain.
 
-    select author_id from authors where lastname = 'Smith';
+Textual analysis: brainstorm words and phrases associated with the problem. The noun phrases are candidates for classes or fields, and the verb phrases are candidates to become methods (or possibly classes).
 
-can be answered efficiently because the index on **lastname** will allow the database to ignore tuples in which the value of that attribute is not 'Smith'.
+Exercise: TicTacToe game. The requirements are:
+
+-   implement game logic
+-   show the progress of the game in a GUI window
+-   support any combination of human and AI (computer) players
+

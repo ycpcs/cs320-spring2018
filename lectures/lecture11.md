@@ -1,114 +1,184 @@
 ---
 layout: default
-title: "Lecture 11: ORM, Designing a Persistence Layer"
+title: "Lecture 6: OO Design, OCP, LSP"
 ---
 
-# ORM
+OO Design
+=========
 
-ORM is *Object-Relational Mapping*, meaning the use of relations in a relational database to store object data.  Since all data in an object-oriented system is represented as objects, having an effective approach for ORM is an important requirement.
+Basic idea: take our analysis model and turn it into a detailed blueprint for our implementation, the *design model*.
 
-In this lecture we will go over some principles for implementing ORM.
+Goals for the design model:
 
-# Principles
+> 1. Design a system that will solve the problem (with enough detail that the implementation should flow easily from the design).
+>
+> 2. Design a system that is easy to change.
 
-Implementing ORM does not need to be complicated.  Here are some principles to keep in mind.
+Goal \#1 should be fairly obvious - there's no point in building incorrect software.
 
-## Principle 1: ORM is for storing objects
+> **True, but what are some other reasons to invest time in "designing" the system?**
 
-The point of ORM is to store object data persistently. It is the *objects* that are important, not the database.   The database exists only to store object data.  The design of the database (the relations and the way they are connected to each other) follows the way the classes in the system are related to each other.
+Goal \#2 has several important motivations:
 
-Another way of looking at this is that your ORM approach should allow your system to be completely oblivious to the fact that the relational database is there.  It should just give the system a way to load and store object data.
+> We know the requirements will change as the system evolves.
+>
+> We know that we will learn more about the problem and revisit earlier decisions.
+>
+> Designs that accommodate change tend to be easy to understand - which is very important when we're dealing with a complex system.
 
-## Princple 2: Create an interface for your persistence operations
+As always in software development, there are an infinite number of ways we could design a system to solve any particular problem.
 
-Following from Principle 1, we don't want the code in the system that performs persistence operations to be aware of what mechanism is being used to load and store object data.  So, you should define an interface to describe the *persistence operations*, which are the methods that load and store objects.
+> **So, what do we need to do in order to design a system that best achieves our goals?  And how should we interpret "best"?**
 
-Each persistence operation should
+Having a good analysis model generally gives us a very good place to start in constructing a design model. So, if we simply **elaborate the analysis model** (adding methods, method parameters and return types, fields, etc.) we will most likely get a reasonably good design. However, as we build the design model, we will have many opportunities to *improve* the design.
 
-* Load object data from the database (returning one or more objects), or
-* Store object data in the database (taking one or more objects and storing their data), or
-* Do both (load and store objects)
+> **So, the question becomes, "what makes a good design?"**
 
-## Principle 3: Create a "fake" implementation of the persistence interface
+There is one ultimate principle that describes good design, in software as well as almost any other kind of system:
 
-One of the most important motivations for creating an interface to describe the persistence operations is that it allows you to define multiple implementations of your persistence operations.
+> The simplest solution that solves the problem is generally the best one.
 
-The first implementation you create should not actually use a database at all.  It should implement the persistence operations using in-memory containers such as **ArrayList**s.
+> **Can you think of situations when the above statement might not apply?**
 
-Having this "fake" persistence implementation yields the following benefits:
+Simplicity has many benefits:
 
-* It allows you to make progress on the rest of the system: you are never held up because of difficulty integrating the actual relational database
-* It allows you to write unit tests for the controllers that perform persistence operations (unit testing with an actual database, especially one that requires a server, can be difficult)
+> less code to write, debug, maintain
+>
+> the system is easier to understand
+>
+> the system is easier to modify
 
-Eventually, you will want to create a "real" implementation of the persistence interface that uses a real database, but the "fake" implementation should be maintained alongside the real implementation.
+As we discuss design, we will discuss a number of more specific design principles to help achieve simplicity.
 
-## Princple 4: Use dependency injection to access the persistence interface
+Design Principles
+=================
 
-As noted earlier, your system should not know or care what implementation of the persistence interface it is using.  A technique called *dependency injection* allows the implementation of the persistence interface to be created dynamically (when the program runs).
+The essential problem of software is that there are an infinite number of ways that we could build a system that works and correctly solves the problem we want to solve. However, many possible designs are **needlessly complex, fragile, difficult to understand, etc.**   I will present some examples - at times, it is helpful to understand how to do something wrong, in order to understand how to do something better.
 
-Here is a very simple approach to dependency injection.  Let's say the persistence interface is called **IDatabase**.  A class called **DatabaseProvider** could be defined as follows:
+Given the challenging environment in which software is developed (limited time/money/resources, changing requirements, changing business needs, etc.), we need to make sure that we design simple, flexible systems.
 
-    public class DatabaseProvider {
-        private static IDatabase theInstance;
-        
-        public static void setInstance(IDatabase db) {
-            theInstance = db;
-        }
-        
-        public static IDatabase getInstance() {
-            if (theInstance == null) {
-                throw new IllegalStateException("IDatabase instance has not been set!");
-            }
-            return theInstance;
-        }
-    }
+There is no automatic way to come up with a "perfect" design.
 
-Sometime early in the initialization of your system (before any code that performs persistence operations is executed), a call to **setInstance** should be used to install an object that implements the **IDatabase** interface.  
+Instead, what we can do is take an existing design and judge it according to the *principles* of object-oriented design. By doing so, we may find ways to improve the design.
 
-All of the code in the system that needs to perform persistence operations should then use
+Today, we will talk about some of the important OO design principles. These principles are the product of many years of experience building object-oriented software.
 
-    DatabaseProvider.getInstance()
+The following is excerpted from your reading for today: [Design Principles and Design Patterns](lecture06/Principles_and_Patterns.pdf) by [Robert C. Martin](https://sites.google.com/site/unclebobconsultingllc/).
 
-to get a reference to the object that implements **IDatabase**.
+Open/Closed Principle (OCP)
+---------------------------
 
-# Practical considerations
+"A module should be open for extension but closed for modification." (from [Martin])
 
-There are many practical details that need to be worked out to implement ORM.  This is not an exhaustive list, but does highlight some things you should keep in mind.
+It should be possible to extend the functionality of a module (a component of the system) without changing the implementation of that module.
 
-[Lab 6](../labs/lab06.html) has a small but realistic example of a database application with an ORM layer that should be useful as a reference.
+> **How is this possible?**
 
-## Make your model objects POJOs
+The idea is that we try to design and implement modules (classes) so that they *use* (call methods on) objects through *abstract classes* and *interfaces*. That way, we can extend the functionality of the module by simply adding new subclasses which add new behavior, instantiating objects which are instances of those subclasses, and passing the objects to the module which uses them **through the abstract superclass or interface**.
 
-A "Plain Old Java Object", or [POJO](http://en.wikipedia.org/wiki/POJO), is an object belonging to a Java class that consists of fields and getter/setter methods.
+Example:
 
-Using POJOs simplifies the task of mapping classes/objects to database relations/tuples because each field of the POJO class maps onto an attribute (column) of the corresponding relation (table).
+A video game. The game supports player ship, enemy ship, missile, and power up objects:
 
-All of your model classes should have
+> ![image](figures/ocpExample1.png)
 
-* a constructor that does not take any parameters
-* getter methods for each field
-* setter methods for each field
+If we want to add a new type of visual object to the game, we have to add a new class (not a big problem) and then modify the game module to use it (not so great).
 
-You may implement some behavior in your model classes: however, it may be easier to move behavior as much as possible to controller classes, leaving the model classes as passive containers for data.
+We can observe that there are important commonalities in the way that the game *uses* the visual objects:
 
-## Automate the creation of the database and the loading of initial data
+> it draws them
+>
+> it allows them to take turns (one turn per animation frame)
+>
+> etc.
 
-When you create your "real" implementation of the persistence interface, write code that will create the database and load any required initial data.
+This suggests a better design:
 
-## Use try/finally to ensure that database resources are cleaned up
+> ![image](figures/ocpExample2.png)
 
-In JDBC, all **Connection**, **PreparedStatement**, and **ResultSet** objects must be closed when they are no longer needed.  Always use the **try/finally** construct to ensure that these objects are cleaned up.  This is especially critical for web applications (and other server applications), where the system will run for an extended period of time, and resource leaks will degrade performance and possibly result in a crash.
+Now, adding new visual objects to the game is as simple as adding a new subclass of Sprite.
 
-## Use transactions to guarantee atomicity
+Interestingly, there is an important consideration if we are truly to satisfy the Open/Closed Principle. How are the various Sprite objects created? Specifically, can the Game class (or module) create instances of Sprite (or subclasses of Sprite)?
 
-Sometimes, your persistence implementation may need to execute multiple SQL queries or statements to perform a persistence operation.  For example, before inserting a new book in the database, using a query to check whether or not the author already exists, and if not, adding a new tuple to the authors relation.
+The answer is NO: if the Game module creates subclasses of Sprite directly, then code changes are required to extend Game.
 
-Because web applications (and most other types of server applications) will support many clients concurrently, the persistence implementation needs to ensure that data remains consistent.  For example, the system should guarantee that if two clients are attempting to add different books written by the same author to the database, only a single tuple will be added to the authors relation for that author.
+> **What is the exact violation of OCP?**
 
-A [database transaction](http://en.wikipedia.org/wiki/Database_transaction) is a technique that allows the database application to group a sequence of database operations into a single transaction that will either succeed or fail in its entirety.  So, if two transactions attempt to add the same author, only one will succeed.
+This seems like a dilemma, but we can get around it by observing that we only have a problem if Game *directly* creates Sprites. There is no problem if Game *indirectly* creates Sprites.
 
-Executing transactions in JDBC is relatively straightforward: call **setAutoCommit(false)** on the **Connection** object, and then call the **commit()** method on the connection after executing all queries/statements that are part of the transaction.  Note that if two transactions interfere with each other, one will fail, typically with an exception indicating deadlock.   So, it may be necessary to retry a transaction several times until it can be committed successfully.  Creating objects to represent transactions can help, since you can create an "execute transaction" method that will attempt to execute the transaction as many times as required until it suceeds, avoiding the need to replicate the retry code in many places.
+> **So, how could Game *indirectly* create Sprites?**
 
-<!-- vim:set wrap: ­-->
-<!-- vim:set linebreak: -->
-<!-- vim:set nolist: -->
+Game can create *indirectly* if it *delegates* the creation of the Sprites to another object:
+
+> ![image](figures/spriteFactory.png)
+
+The SpriteFactory class is responsible for creating the Sprites for each level. It is also not a problem for one Sprite object to create another: for example, a PlayerShip object might create a Missile object when the user fires a Missile.
+
+> **But, how does SpriteFactory know which Sprites to create for each level?**
+
+> **What if we want to add new Sprites to a level, how does SpriteFactory know to create those new Sprites for that level?  Don't we still have to change SpriteFactory so that it creates those Sprites for that level?**
+
+> **What if we want to add a new level, then how does SpriteFactory know how to create Sprites for a level it has never seen before?**
+
+The idea of using a *factory class* to indirectly create instances of subclasses of an abstract superclass is an example of a *design pattern*. Design patterns are good ideas that help improve designs to more closely follow OO design principles. We will discuss many design patterns as we discuss OO design.
+
+> **What interfaces might be applicable for some of the subclasses of the Sprite super class?**
+
+Liskov Substitution Principle (LSP)
+===================================
+
+"Subclasses should be substitutable for their base classes." (from [Martin]) Another way of stating this principle is that anywhere in a program that an instance of a superclass may be used, an instance of a subclass is allowed.
+
+This principle is named for Barbara Liskov of MIT, an important researcher in programming languages (particularly OO languages).
+
+This principle is related to the Open/Closed Principle. Specifically, if it is *not* possible to freely use instances of subclasses in modules which use the superclass, then we have not achieved the Open/Closed principle.
+
+Example: is a Square a Rectangle?
+
+In a geometric sense, a square is certainly a rectangle.
+
+However, in an OO sense, it is not necessarily the case that a Square *behaves like* a Rectangle. Consider:
+
+{% highlight java %}
+public class Rectangle {
+   ...
+
+   public int getWidth() { ... }
+
+   public int getHeight() { ... }
+
+   public void setWidth(int w) { ... }
+
+   public void setHeight(int h) { ... }
+}
+{% endhighlight %}
+
+If we make Square a subclass of Rectangle, how will it implement setWidth and setHeight?
+
+> we could have changes to width be reflected in the Square's height, and vice versa, but that violates the contract of the setHeight and setWidth methods (which should only change one dimension of the Rectangle)
+
+> we could leave setWidth and setHeight unimplemented for Square objects (i.e., throw an exception when called), but that will certainly surprise clients of the Rectangle class
+
+What this example shows is that we cannot make one class a subclass of another class unless it can truly behave in a way that is consistent with the expectations established by the superclass.
+
+Note that in the case of Rectangle/Square, there is no problem if Rectangles and Squares are *immutable*, meaning their properties are fixed (no setter methods).
+
+LSP can be restated as **Design by Contract**.  In order for a derived class to be substitutable for its base class, the derived class must *honor the contract* of the base class.
+
+The contract for each method in a class is based on *pre-conditions* and *post-conditions*:
+
+> Pre-condition: that which must be true before a method is called.  If the pre-conditions for a method are not met, that method should not be called.
+
+> **Who is responsible for enforcing the pre-conditions?**
+
+> Post-condition: that which is guaranteed to be true after the method is called.  If the post-conditions for a method can not be met, the method should not return (assertion).
+
+> **Who is responsible for enforcing the post-conditions?**
+
+We can restate the LSP in terms of the contracts.  A derived class is substitutable for its base class if:
+> 1. Its pre-conditions are no stronger than the base class method(s).
+> 2. Its post-conditions are no weaker than the base class method(s).
+
+Derived methods should *expect no more and provide no less* than there base class methods.
+
+> **Just like a Square is a Rectangle, a Circle is an Ellipse.  How might a Circle subclass derived from an Ellipse base class violate the Ellipse contract?**
