@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 11: ORM, Designing a Persistence Layer"
+title: "Lecture 15: ORM, Designing a Persistence Layer"
 ---
 
 # ORM

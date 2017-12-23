@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 10: Database Applications, JDBC"
+title: "Lecture 14: Database Applications, JDBC"
 ---
 
 In [Lab 4](../labs/lab04.html) we experimented with [Derby](https://db.apache.org/derby/) by typing queries interactively (using a simple front-end program).

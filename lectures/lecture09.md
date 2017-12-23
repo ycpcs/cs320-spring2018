@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 4: UML Class Diagrams"
+title: "Lecture 9: UML Class Diagrams"
 ---
 
 UML Class Diagrams

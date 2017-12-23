@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 2: Development Process"
+title: "Lecture 6: Development Process"
 ---
 
 Development process

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 5: OO Analysis"
+title: "Lecture 10: OO Analysis"
 ---
 
 Analysis is the development activity where we try to fully understand the problem domain, and build a model of the problem domain that will help us create a system that solves the problem we want to solve.

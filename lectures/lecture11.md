@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 6: OO Design, OCP, LSP"
+title: "Lecture 11: OO Design, OCP, LSP"
 ---
 
 OO Design

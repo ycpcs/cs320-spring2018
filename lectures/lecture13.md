@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 9: Relational Databases"
+title: "Lecture 13: Relational Databases"
 ---
 
 A *relational database* is a system for storing and accessing data organized into *relations*.

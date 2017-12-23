@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 13: Ensuring Code Quality"
+title: "Lecture 17: Ensuring Code Quality"
 ---
 
 # Ensuring code quality

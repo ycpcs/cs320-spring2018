@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lecture 3: Requirements, Use Cases"
+title: "Lecture 8: Requirements, Use Cases"
 ---
 
 Requirements
