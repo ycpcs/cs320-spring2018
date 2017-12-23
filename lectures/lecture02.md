@@ -51,8 +51,6 @@ Each HTML document can have one or more CSS stylesheets associated with it. A CS
 
 Modified version of Hello, world:
 
-~~~ html
-
 <pre>
 &lt;!DOCTYPE html&gt;
 
@@ -73,8 +71,6 @@ Modified version of Hello, world:
         &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-
-~~~
 
 <a href="lecture02/helloJazzy.html">Link</a>
 
@@ -142,8 +138,6 @@ Clean separation of semantic content and presentation (visual appearance) is imp
 
 A CSS selector can match an element by its **id** attribute:
 
-~~~ html
-
 <pre>
 &lt;!DOCTYPE html&gt;
 
@@ -203,8 +197,6 @@ A CSS selector can match an element by its **id** attribute:
 &lt;/html&gt;
 </pre>
 
-~~~
-
 <a href="lecture02/item-mangoes-styled.html">Link</a>
 
 What happened? We appled the **float: left** CSS property to the first two divs, arranging them from left to right (rather than stacking them vertically as is the default for **div** elements). Applying the **clear: both** property to the **itemDescription** element causes it to be placed below the previous elements (otherwise, the browser would attempt to flow this element's contents around the floated elements.) Visual styles are applied to the divs in order to give each one a distinct appearance.
@@ -244,8 +236,6 @@ A *class* is a way of designating an arbitrary number of elements as sharing som
 
 A version in which the beast names are styled differently (using a font from [Google Fonts](http://www.google.com/fonts)) than the surrounding text (and we also add a margin above/below the divs):
 
-~~~ html
-
 <pre>
 &lt;!DOCTYPE html&gt;
 
@@ -279,7 +269,5 @@ A version in which the beast names are styled differently (using a font from [Go
     &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-
-~~~
 
 <a href="lecture02/beastNames-styled.html">Link</a>
