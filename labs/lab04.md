@@ -45,7 +45,7 @@ Now, use the **alter table** command to establish **author_id** as a foreign key
         add foreign key (author_id)
         references authors (author_id);
     
-The schemas of the database tables are described in the notes for [Lecture 9](../lectures/lecture09.html).
+The schemas of the database tables are described in the notes for [Lecture 13](../lectures/lecture13.html).
 
 **NOTE:** You must work individually on this lab.  It is imperative that everyone on your team be able to construct SQL queries, to establish a connection between a Java program and a SQL database, and to write SQL queries embedded in Java code.  This **WILL** come up on the exam.
 
