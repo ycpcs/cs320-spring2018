@@ -206,7 +206,7 @@ Element classes
 
 A limitation of using **id** attributes is that elements cannot share the same id. So, CSS rules that select an element by an id can only apply to one element.
 
-A *class* is a way of designating an arbitrary number of elements as sharing some common semantic property. For example, we might want distinguish beast names from other text. Consider the following document:
+A *class* is a way of designating an arbitrary number of elements as sharing some common semantic property. For example, we might want to distinguish beast names from other text. Consider the following document:
 
 ~~~ html
 

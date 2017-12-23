@@ -5,7 +5,7 @@ title: "Assignments"
 
 This page lists the assignments.
 
-**Note**: For team projects, only **one** team member should submit the assignment.
+**Note**: For team assignments, only **one** team member should submit the assignment.
 
 Assignment | Type | Due
 ---------- | ---- | ---
@@ -19,4 +19,4 @@ Assignment | Type | Due
 [Assignment 8: Team Project Presentation and Demo](assign08.html) | Team | Wed, May 9th (Final Exam Period)
 [Assignment 9: Individual Project Deliverables](assign09.html) | Individual | Thu, Apr 26th by 11:59 PM
 [Assignment 10: Team Project Reflection](assign10.html) | Individual | Tues, May 8th by 11:59 PM
-[Assignment 11: Team Project Self /Peer Evaluation](assign11.html) | Individual | Tues, May 8th by 11:59 PM
+[Assignment 11: Team Project Self /Peer Evaluation](assign11.html) | Individual | Midterm: Sun, Apr 8 by 11:59 PM<br>Final: Tues, May 8th by 11:59 PM
