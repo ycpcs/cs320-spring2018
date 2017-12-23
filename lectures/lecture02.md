@@ -11,6 +11,8 @@ HTML and its companion language CSS form the markup language used to render web 
 Hello, world in HTML
 --------------------
 
+~~~ html
+
     <!DOCTYPE html>
 
     <html>
@@ -23,6 +25,8 @@ Hello, world in HTML
         </body>
     </html>
 
+~~~
+	
 <a href="lecture02/hello.html">Link</a>
 
 Try saving this in a text file with a **.html** file extension and then open it in a web browser.
@@ -47,6 +51,8 @@ Each HTML document can have one or more CSS stylesheets associated with it. A CS
 
 Modified version of Hello, world:
 
+~~~ html
+
 <pre>
 &lt;!DOCTYPE html&gt;
 
@@ -67,6 +73,8 @@ Modified version of Hello, world:
         &lt;/body&gt;
 &lt;/html&gt;
 </pre>
+
+~~~
 
 <a href="lecture02/helloJazzy.html">Link</a>
 
@@ -91,6 +99,8 @@ Let's say we're going to make a website to display items (kinds of fruit) we hav
 -   information about the vendor which supplies the item
 
 Example HTML:
+
+~~~ html
 
     <!DOCTYPE html>
 
@@ -122,6 +132,8 @@ Example HTML:
         </body>
     </html>
 
+~~~
+	
 <a href="lecture02/item-mangoes.html">Link</a>
 
 Notice that each **div** element in the HTML has an **id** attribute. An **id** attribute is a way to assign an "identity" to an element so that it can be styled with a CSS rule. This is an example of *semantic markup*: we are using **div**s and element ids to specify the *meaning* of the HTML content, without specifying how that content should be presented.
@@ -129,6 +141,8 @@ Notice that each **div** element in the HTML has an **id** attribute. An **id** 
 Clean separation of semantic content and presentation (visual appearance) is important, because it allows the developers who work on the functionality of a website to work largely independently of the visual designers who define the layout and appearance of the website.
 
 A CSS selector can match an element by its **id** attribute:
+
+~~~ html
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -189,6 +203,8 @@ A CSS selector can match an element by its **id** attribute:
 &lt;/html&gt;
 </pre>
 
+~~~
+
 <a href="lecture02/item-mangoes-styled.html">Link</a>
 
 What happened? We appled the **float: left** CSS property to the first two divs, arranging them from left to right (rather than stacking them vertically as is the default for **div** elements). Applying the **clear: both** property to the **itemDescription** element causes it to be placed below the previous elements (otherwise, the browser would attempt to flow this element's contents around the floated elements.) Visual styles are applied to the divs in order to give each one a distinct appearance.
@@ -199,6 +215,8 @@ Element classes
 A limitation of using **id** attributes is that elements cannot share the same id. So, CSS rules that select an element by an id can only apply to one element.
 
 A *class* is a way of designating an arbitrary number of elements as sharing some common semantic property. For example, we might want distinguish beast names from other text. Consider the following document:
+
+~~~ html
 
     <!DOCTYPE html>
 
@@ -220,9 +238,13 @@ A *class* is a way of designating an arbitrary number of elements as sharing som
         </body>
     </html>
 
+~~~
+	
 <a href="lecture02/beastNames.html">Link</a>
 
 A version in which the beast names are styled differently (using a font from [Google Fonts](http://www.google.com/fonts)) than the surrounding text (and we also add a margin above/below the divs):
+
+~~~ html
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -257,5 +279,7 @@ A version in which the beast names are styled differently (using a font from [Go
     &lt;/body&gt;
 &lt;/html&gt;
 </pre>
+
+~~~
 
 <a href="lecture02/beastNames-styled.html">Link</a>
