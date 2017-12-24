@@ -5,32 +5,64 @@ title: "Resources"
 
 This page links to useful resources.
 
-[W3Schools: Tutorial site for HTML, CSS, Java Script, SQL, PHP](http://www.w3schools.com) - Go here first for HTML/CSS tutorials.
+HTML and CSS
+============
 
-[Bootstrap: A visual editor for creating web front-ends](http://www.w3schools.com/bootstrap/default.asp)
+[W3Schools: Tutorial site for HTML, CSS, Java Script, SQL, PHP](http://www.w3schools.com) &mdash; Go here first for HTML/CSS tutorials.
 
-[Brackets: A visual editor for working on HTML/CSS](http://brackets.io/)
+[Bootstrap](http://www.w3schools.com/bootstrap/default.asp) &mdash; A visual editor for creating web front-ends
+
+[Brackets](http://brackets.io/) &mdash; A visual editor for working on HTML/CSS
 
 [Tutorial Site for Creating HTML Forms](http://www.htmliseasy.com/form_tutor/lesson01.html)
 
-[Tutorial site for working with JSPs](http://www.tutorialspoint.com/jsp/index.htm) - note that this references Apache Tomcat, but much of it should apply to Eclipse Jetty.
+Java Server Pages (JSP) and Java Standard Tag Library (JSTL)
+============================================================
 
-[Tutorial Site for Working with JSTL](http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm) - linked from above site.
+[JSP Tutorial](http://www.tutorialspoint.com/jsp/index.htm) &mdash; Tutorial site for working with JSPs (Note that this references Apache Tomcat, but much of it should apply to Eclipse Jetty)
 
-[Creating and Using Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm) - linked from above site.
+[JSTL Tutorial](http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm) &mdash; Tutorial Site for Working with JSTL (linked from above site)
 
-[A Java email validator class using regex (regular expressions)](https://www.mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/
-)
+[Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm) &mdash; Creating and Using Session Information (linked from above site)
 
-[UML: A Great Explanation of UML Relationships](http://usna86-techbits.blogspot.de/2012/11/uml-class-diagram-relationships.html)
+Unified Modeling Language (UML)
+===============================
+
+[UML: A Concise Explanation of UML Relationships](http://usna86-techbits.blogspot.de/2012/11/uml-class-diagram-relationships.html)
 
 Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
 
-[Fetching and merging changes from within Eclipse](fetchMerge.html)
+Git, GitHub, and EGit
+=====================
+
+[Git Website](https://git-scm.com) &mdash; everything you ever wanted to know about Git, but were afraid to ask
+
+[Git eBook: ProGit v2](https://git-scm.com/book/en/v2) &mdash; available free in PDF form
+
+[Git Reference Manual](https://git-scm.com/docs) &mdash; Git command-line reference
+
+[Git Videos](https://git-scm.com/videos) &mdash; tutorials on getting started with Git
+
+[Git Downloads](https://git-scm.com/downloads) &mdash; Git Clients and Tools
+
+[eGit: Fetching and merging changes from within Eclipse](fetchMerge.html)
+
+Apachy Derby: Relational Database
+=================================
 
 [CS320\_Derby.zip](CS320_Derby.zip) &mdash; Eclipse project with jarfiles for Apache Derby (relational database)
 
+> <div class="callout"><b>When you implement the persistence layer using Derby for your team project</b>: when specifying the JDBC URL in the code where you connect to the database, you should use an absolute file name for the database name. For example, <code>jdbc:derby:H:/mydatabase.db;create=true</code> (this will create the database as <code>H:/mydatabase.db</code>).  If you use a relative file name, your web application will probably not find the database (because it runs in the <code>war</code> directory rather than the root directory of the project).</div>
+
+Email address validation
+========================
+
+[A Java email validator class using regex (regular expressions)](https://www.mkyong.com/regular-expressions/how-to-validate-email-address-with-regular-expression/)
+
 <!--
+
+CS320 Library Example Project
+=============================
 
 [CS320\_Library\_Example\_2018.zip](CS320_Library_Example_2018.zip) &mdash; Eclipse project that ties the [Web Applications Lab](../labs/lab02.html) together with the [ORM Lab](../labs/lab06.html).  This application places a web front-end on the SQL transactions from Lab06, as well as provides examples for creating a Derby database from CSV files, how to use session information after login, and how to use JSTL to display a list of complex objects in a JSP.  It has been updated to incorporate a many-to-many relationship between **Books** and **Authors**, using a junction table (**booksAuthors**) that cross-references **book_id**'s with **author_id**'s.  It also contains some example JUnit Tests for testing the Derby database queries.
 
@@ -52,4 +84,3 @@ There are currently two sets of login credentials hard-coded into the applicatio
 
 -->
 
-> <div class="callout"><b>When you implement the persistence layer using Derby for your team project</b>: when specifying the JDBC URL in the code where you connect to the database, you should use an absolute file name for the database name. For example, <code>jdbc:derby:H:/mydatabase.db;create=true</code> (this will create the database as <code>H:/mydatabase.db</code>).  If you use a relative file name, your web application will probably not find the database (because it runs in the <code>war</code> directory rather than the root directory of the project).</div>
