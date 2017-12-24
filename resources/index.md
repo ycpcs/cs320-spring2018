@@ -14,7 +14,7 @@ Hypertext Mark-Up Language (HTML) and Cascading Style Sheets (CSS)
 
 [HTML Forms Tutprial](http://www.htmliseasy.com/form_tutor/lesson01.html): Tutorial site for creating HTML Forms
 
-[HTML Tables Tutorial](http://http://www.htmliseasy.com/table_tutor/index.html): Tutorial site for creating HTML tables
+[HTML Tables Tutorial](http://www.htmliseasy.com/table_tutor/index.html): Tutorial site for creating HTML tables
 
 [Basic CSS Tutorial](http://www.htmliseasy.com/css_tutor/index.html): Tutorial site for using CSS
 
@@ -60,14 +60,16 @@ Git, GitHub, and eGit
 
 [Git Downloads](https://git-scm.com/downloads): Git Clients and Tools
 
-[GitHub - Repository Site](https://github.com/): Teams will create their remote repositories on GitHub
+[GitHub - Remote Repository Host](https://github.com/): Teams will create their remote repositories on GitHub
+
+[eGit Home Page](https://www.eclipse.org/egit/): Documentation and tutorials on setting up and using eGit
 
 [eGit: Fetching and merging changes from within Eclipse](fetchMerge.html)
 
 Relational Databases and Structured Query Language (SQL)
 ========================================================
 
-[SQL Tutorial - w3schools](https://www.w3schools.com/sql/default.asp): SQL tutorial w/sandbox from **w3schools.com**
+[SQL Tutorial - w3schools](https://www.w3schools.com/sql/default.asp): **Go here first for SQL tutorials w/sandbox from w3schools.com**
 
 [CS320\_Derby.zip](CS320_Derby.zip): Eclipse project with jarfiles for Apache Derby (relational database)
 
