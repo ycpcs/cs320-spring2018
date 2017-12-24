@@ -16,12 +16,12 @@ Class times:
 
 Instructor:
 
--   [Donald Hake](http://www.ycp.edu/academics/academic-departments/engineering-and-computer-science/faculty-and-staff/department-employee-records/name-32407-en.html), <djhake2@ycp.edu>, KEC 137, 815-6587<br /> Office Hours: M/W/F 10:00 - 11:00, Th 11:00 - 12:30, and by appointment
+-   [Donald Hake](http://www.ycp.edu/academics/academic-departments/engineering-and-computer-science/faculty-and-staff/department-employee-records/name-32407-en.html), <djhake2@ycp.edu>, KEC 137, 815-6587<br /> Office Hours: M/W/F 10:00 - 11:00, Tue 11:00 - 12:30, and by appointment
 
 Course Description
 ------------------
 
-This course describes the software development process in detail, including the software life cycle and models of software development; requirements analysis and software design techniques, such as SADT and Jackson Design Methodology; techniques for software quality assurance, including design reviews, testing, metrics, and an introduction to program verification; and software project planning, organization, and management. Students will be expected to participate in a team-programming project.
+This course describes the software development process in detail, including the software life cycle and models of software development; requirements analysis and software design techniques, such as Textual Analysis, UML, and Jackson Design Methodology; techniques for software quality assurance, including design reviews, automated testing, metrics, and an introduction to program verification; and software project planning, organization, and management. Students will be expected to participate in a semester-long team-programming project.
 
 Prerequisites
 -------------
@@ -79,9 +79,9 @@ Your overall grade for the course will be determined as follows:
 -   Midterm exam: 20%
 -   Attendance and participation: 5%
 
-**(&dagger;)** You must make a good faith effort to complete all of the labs and assignments in order to pass the course.  Failure to complete all labs and assignments is grounds for receiving a reduced or failing grade for the course.
+**(&dagger;) You must make a good faith effort to complete all of the labs and assignments in order to pass the course.  Failure to complete all labs and assignments is grounds for receiving a reduced or failing grade for the course.**
 
-**(\*)** You must make a substantial *technical* contribution to your team software project. Although the non-technical contributions you make to your project, such as planning, communication, and organization, are important, you must also make a substantial contribution to the design and implementation of the software. I reserve the right to assign a failing grade for the course to any student who does not do this.
+**(\*) You must make a substantial *technical* contribution to your team software project. Although the non-technical contributions you make to your project, such as planning, communication, and organization, are important, you must also make a substantial contribution to the design and implementation of the software. I reserve the right to assign a failing grade for the course to any student who does not do this.**
 
 ### Course website
 
