@@ -5,50 +5,69 @@ title: "Resources"
 
 This page links to useful resources.
 
-HTML and CSS
-============
+Hypertext Mark-Up Language (HTML) and Cascading Style Sheets (CSS)
+===================================================================
 
-[W3Schools: Tutorial site for HTML, CSS, Java Script, SQL, PHP](http://www.w3schools.com): o here first for HTML/CSS tutorials.
+[w3Schools.com](http://www.w3schools.com): **Go here first for HTML/CSS, SQL, JavaScript, PHP tutorials**
+
+[Basic HTML Tutorial](http://www.htmliseasy.com/html_tutor/index.html): Tutorial site for Basic HTML
+
+[HTML Forms Tutprial](http://www.htmliseasy.com/form_tutor/lesson01.html): Tutorial site for creating HTML Forms
+
+[HTML Tables Tutorial](http://http://www.htmliseasy.com/table_tutor/index.html): Tutorial site for creating HTML tables
+
+[Basic CSS Tutorial](http://www.htmliseasy.com/css_tutor/index.html): Tutorial site for using CSS
+
+[CSS Reference](http://www.htmliseasy.com/wdgcss/index.html): CSS reference guide from Web Design Group
 
 [Bootstrap](http://www.w3schools.com/bootstrap/default.asp): A visual editor for creating web front-ends
 
 [Brackets](http://brackets.io/): A visual editor for working on HTML/CSS
 
-[Tutorial Site for Creating HTML Forms](http://www.htmliseasy.com/form_tutor/lesson01.html)
-
 Java Server Pages (JSP) and Java Standard Tag Library (JSTL)
 ============================================================
 
-[JSP Tutorial](http://www.tutorialspoint.com/jsp/index.htm): Tutorial site for working with JSPs (Note that this references Apache Tomcat, but much of it should apply to Eclipse Jetty)
+[JSP Tutorial](http://www.tutorialspoint.com/jsp/index.htm): Tutorial site for working with JSPs (note that this references Apache Tomcat, but much of it should apply to Eclipse Jetty)
 
-[JSTL Tutorial](http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm): Tutorial Site for Working with JSTL (linked from above site)
+[JSTL Tutorial](http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm): Tutorial site for working with JSTL (linked from above site)
 
-[Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm): Creating and Using Session Information (linked from above site)
+[Session Information](http://www.tutorialspoint.com/jsp/jsp_session_tracking.htm): Creating and using session information (linked from above site)
+
+JavaScript (JS)
+===============
+
+[JavaScript Tutorial - w3schools](https://www.w3schools.com/js/default.asp): JavaScript tutorial w/sandbox from **w3shools.com**
+
+[JavaScript Tutorial](http://www.htmliseasy.com/javascript/index.html): Basic JavaScript tutorial
 
 Unified Modeling Language (UML)
 ===============================
 
-[UML: A Concise Explanation of UML Relationships](http://usna86-techbits.blogspot.de/2012/11/uml-class-diagram-relationships.html)
+[UML Diagrams](http://usna86-techbits.blogspot.de/2012/11/uml-class-diagram-relationships.html): A concise explanation of UML relationships and diagrams
 
-Violet UML: [violetumleditor-2.1.0.jar](violetumleditor-2.1.0.jar)
+[Violet UML Download](violetumleditor-2.1.0.jar): Use Violet UML for your project UML diagrams
 
-Git, GitHub, and EGit
+Git, GitHub, and eGit
 =====================
 
-[Git Website](https://git-scm.com): everything you ever wanted to know about Git, but were afraid to ask
+[Git Website](https://git-scm.com): Everything you ever wanted to know about Git, but were afraid to ask
 
-[Git eBook: ProGit v2](https://git-scm.com/book/en/v2): available free in PDF form
+[Git eBook: ProGit v2](https://git-scm.com/book/en/v2): Available free in PDF form
 
 [Git Reference Manual](https://git-scm.com/docs): Git command-line reference
 
-[Git Videos](https://git-scm.com/videos): tutorials on getting started with Git
+[Git Videos](https://git-scm.com/videos): Tutorials on getting started with Git
 
 [Git Downloads](https://git-scm.com/downloads): Git Clients and Tools
 
+[GitHub - Repository Site](https://github.com/): Teams will create their remote repositories on GitHub
+
 [eGit: Fetching and merging changes from within Eclipse](fetchMerge.html)
 
-Apachy Derby: Relational Database
-=================================
+Relational Databases and Structured Query Language (SQL)
+========================================================
+
+[SQL Tutorial - w3schools](https://www.w3schools.com/sql/default.asp): SQL tutorial w/sandbox from **w3schools.com**
 
 [CS320\_Derby.zip](CS320_Derby.zip): Eclipse project with jarfiles for Apache Derby (relational database)
 
