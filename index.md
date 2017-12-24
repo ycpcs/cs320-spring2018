@@ -27,55 +27,53 @@ All information about the course will be posted here.
 
 <!-- Commenting out News until it's needed - and the dates will change, anyway
 
-* **Apr 24** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 8th by 11:59 PM.
+* **Apr 23** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 8th by 11:59 PM.
 
-* **Apr 24** - [Assignment 9](assign/assign09.html) describes the deliverables for the individual project.
+* **Apr 23** - [Assignment 9](assign/assign09.html) describes the deliverables for the individual project.
 
-* **Apr 24** - [Assignment 8](assign/assign08.html) describes the deliverables for the team project.
+* **Apr 23** - [Assignment 8](assign/assign08.html) describes the deliverables for the team project.
 
-* **Apr 24** - [Team Project Milestone 4](assign/assign03.html) is due Monday, April 30th.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 3.  You should have a 95% working system, with a higher degree of "polish".  All SQL database functionality should be implemented for this milestone.  See the guidelines for [Team Project Milestone 4](assign/assign03.html).
+* **Apr 23** - [Team Project Milestone 4](assign/assign03.html) is due Wednesay, May 2nd.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 3.  You should have a 95% working system, with a higher degree of "polish".  All SQL database functionality should be implemented for this milestone.  See the guidelines for [Team Project Milestone 4](assign/assign03.html).
 
-* **Apr 16** - [Individual Project Milestone3](assign/assign04.html) is due Monday, April 23rd.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 2.
+* **Apr 16** - [Individual Project Milestone4](assign/assign04.html) is due Monday, April 23rd.  This will be your final 3-4 minute in-class demonstration of your individual project.
 
-* **Apr 13** - [Team Project Milestone 3](assign/assign03.html) is due Friday, April 20th.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
+* **Apr 9** - [Team Project Milestone 3](assign/assign03.html) is due Monday, April 16th.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
 
-* **Apr 2** - Posted an extensive example project on the [Resources page](./resources) that incorporates the Web Applications lab solution (Lab02) with the ORM Lab solution (Lab06).  It provides a web application front-end to the ORM queries, as well as demonstrates the use of login session information, and incorporation of a SQL database persistence layer with a many-to-many relationship.
-
-* **Mar 28** - The midterm exam will be in-class on **Friday, 4-6-18**.  It will be open notes and you can use any resource on the CS320 website, as well as your lab solutions.  A practice exam will be posted over the weekend.  We will use Wednesday, 4-4-18, to go over an end-to-end solution for the books database we've been working with, as well as review for the exam.
-
-* **Mar 24** - [Individual Project Milestone2](assign/assign04.html) is due Monday, April 9th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 1.
+* **Apr 4** - [Individual Project Milestone3](assign/assign04.html) is due Monday, April 9th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 2.
 
 * **Mar 24** - [Team Project Milestone 2](assign/assign03.html) is due Monday, April 2nd.  This will be a 10-minute (max) in-class team presentation/demonstration of your team's progress since milestone 1.  SQL database functionality is **NOT** required for this milestone (but **IS** required for the third milestone.)
 
-* **Mar 23** - [Lab06: ORM](labs/lab06.html) is posted.  It is due **Friday, 3-30-18**.
+* **Mar 21** - Posted an extensive example project on the [Resources page](./resources) that incorporates the Web Applications lab solution (Lab02) with the ORM Lab solution (Lab06).  It provides a web application front-end to the ORM queries, as well as demonstrates the use of login session information, and incorporation of a SQL database persistence layer with a many-to-many relationship.
 
-* **Mar 11** - [Lab05: JDBC](labs/lab05.html) is posted.  It is due **Friday, 3-16-18**.
+* **Mar 19** - [Individual Project Milestone2](assign/assign04.html) is due Monday, March 26th.  This will be a 3-4 minute in-class demonstration of your progress since Milestone 1.
 
-* **Mar 11** - [Lab04: SQL, Queries, Joins](labs/lab04.html) is posted.  It is due **Tuesday, 3-13-18**.
+* **Mar 14** - The midterm exam will be in-class on **Wednesday, 3-28-18**.  It will be open notes and you can use any resource on the CS320 website, as well as your lab solutions.  A practice exam will be posted over the weekend.  We will use Friday, 3-23-18, to go over an end-to-end solution for the books database we've been working with, as well as review for the exam.
 
-* **Mar 4** - [Assignment 4: Individual Project Milestones](assign/assign04.html) **Individual Milestone 1: Baseline** is **due on Monday, March 26th**.  This will be a 3-4 minute in-class demonstration of your progress, to date.
+* **Mar 9** - [Lab06: ORM](labs/lab06.html) is posted.  It is due **Saturday, 3-17-18**.
+
+* **Mar 7** - [Lab05: JDBC](labs/lab05.html) is posted.  It is due **Saturday, 3-10-18**.
+
+* **Mar 5** - [Lab04: SQL, Queries, Joins](labs/lab04.html) is posted.  It is due **Tuesday, 3-6-18**.
 
 * **Mar 4** - [Assignment 3: Team Project Milestones](assign/assign03.html) **Team Milestone 1: Minimal Working System** is **due on Monday, March 19th**.    This will be an 8-10 minute (max) in-class team presentation/demonstration of your team's progress on your UI structure and navigation.  You should have the vast majority of your servlets and JSPs defined, and be able to navigate between most, if not all, of your pages.  Your HTML/CSS will still be in a rough state - don't worry about making it "pretty", focus on functionality over form.
 
-* **Feb 20** - [Assignment 6](assign/assign06.html) due date has been moved to Saturday, 2-24-18.
+* **Feb 14** - [Assignment 4: Individual Project Milestones](assign/assign04.html) **Individual Milestone 1: Baseline** is **due on Monday, March 12th**.  This will be a 3-4 minute in-class demonstration of your progress, to date.
 
-* **Feb 9** - For the in-class presentations of your group's work-in-progress analysis models on Friday (2-16): please use [Violet UML](http://alexdp.free.fr/violetumleditor/page.php) to create a nicely-formatted electronic version of your team's model.  You can download the jarfile from the [Resources Page](resources/index.html).
+* **Feb 14** - [Assignment 6](assign/assign06.html) is **due Saturday, 2-24-18**
+
+* **Feb 9** - For the in-class presentations of your group's work-in-progress analysis models on Friday (2-16-18): please use [Violet UML](http://alexdp.free.fr/violetumleditor/page.php) to create a nicely-formatted electronic version of your team's model.  You can download the jarfile from the [Resources Page](resources/index.html).
 
 * **Feb 2** - [Assignment 5](assign/assign05.html) is **due Sunday, 2-11-18**
 
-* **Jan 26** - [Lab02a: Web Applications II](labs/lab02a.html) is posted.  It is **due Sunday, 2-11-18**
-
 * **Jan 24** - Please see the **Projects** page for possible team project ideas.
-
-* **Jan 22** - Lab02: Web Applications I **due Sunday, 1-28-18**
-
-* **Jan 22** - [Lab 2: Web Applications I](labs/lab02.html) is posted.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
 
 * **Jan 22** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
 
 * **Jan 22** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
 
-* **Jan 19** - Assign02: Individual Project Proposal **due Sunday, 2-4-18**
+* **Jan 22** - [Lab02: Web Applications II](labs/lab02a.html) is posted.  It is **due Sunday, 2-4-18**.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
+
+* **Jan 19** - Assign02: Individual Project Proposal **due Sunday, 2-3-18**
 * **Jan 19** - Assign01: Team Project Proposal **due Sunday, 1-28-18**
 * **Jan 19** - Lab01: HTML & CSS **due Sunday, 1-21-18**
 
