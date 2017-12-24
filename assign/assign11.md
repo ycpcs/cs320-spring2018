@@ -3,19 +3,17 @@ layout: default
 title: "Assignment 11: Team Project Self / Peer Evaluation"
 ---
 
-**DUE: There are two self / peer evaluations forms due this semester: the first following Team MS2, and the second just before the final Team Project presentation and demo.  [See Assignment Schedule](index.html)**
+**DUE: There are two self / peer evaluations forms due this semester: the first following Team Milestone 2, and the second just before the final Team Project presentation and demo.  [See Assignment Schedule](index.html)**
 
 This is an **individual** assignment
 
 # Self / Peer Evaluation
 
-Download the following Self / Peer Evaluation form:
+You can preview the [Team Project Self / Peer Evaluation Form](PeerReview.pdf) here.  When you are ready, download [PeerReview.doc](PeerReview.doc), fill it out, and follow the submission instructions below.
 
-> [PeerReview.doc](PeerReview.doc)
+Use this form to evaluate and rank the contributions of you and your team members to the success of your team project.
 
-Use this form to evaluate the contributions of you and your team members to the success of your team project.
-
-You must also rank all of the team projects that are being developed in your section.
+You must also rank and rate all of the team projects that are being developed in your section.
 
 # Submitting
 
