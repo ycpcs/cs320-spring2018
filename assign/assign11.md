@@ -9,11 +9,13 @@ This is an **individual** assignment
 
 # Self / Peer Evaluation
 
-You can preview the [Team Project Self / Peer Evaluation Form](PeerReview.pdf) here.  When you are ready, download [PeerReview.doc](PeerReview.doc), fill it out, and follow the submission instructions below.
+You can preview the [Team Project Self / Peer Evaluation Form](PeerReview.pdf) here.  
 
 Use this form to evaluate and rank the contributions of you and your team members to the success of your team project.
 
 You must also rank and rate all of the team projects that are being developed in your section.
+
+When you are ready, download [PeerReview.doc](PeerReview.doc), fill it out, and follow the submission instructions below.
 
 # Submitting
 
