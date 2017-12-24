@@ -3,10 +3,10 @@ layout: default
 title: "Project Teams and Rosters"
 ---
 
-[Project Teams](CS320_ProjectTeams_Spring2018.pdf)
+[Project Teams](CS320-Sp18-Teams.pdf)
 
-[CS320 Section 101 Class List (9:00 AM)](CS320_101_sp18_Class_List.pdf)
+[CS320 Section 101 Roster (9:00 AM)](CS320-sp18-101-Roster.pdf)
 
-[CS320 Section 102 Class List (11:00 AM)](CS320_102_sp18_Class_List.pdf)
+[CS320 Section 102 Roster (11:00 AM)](CS320-sp18-102-Roster.pdf)
 
-[CS320 Section 103 Class List (1:00 PM)](CS320_103_sp18_Class_List.pdf)
+[CS320 Section 103 Roster (1:00 PM)](CS320-sp18-103-Roster.pdf)
