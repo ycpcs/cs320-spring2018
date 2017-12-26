@@ -8,7 +8,7 @@ Determining the JRE System Library
 
 These instructions are for **Eclipse Mars** (which is installed on the PCs in KEC 119 and KEC 123).  The instructions will be similar for **Luna** and **Neon** - but might have some slight differences.
 
-There can be a conflict between certain **JRE System Library** versions (earlier than **jre1.8.0\_91**), **CS320\_Jetty9, and **CS320\_Lab02**.  If you are using an older version of the **JRE System Library**, you might need to change the default **JRE System Library** version to a later version in order to get **CS320\_Lab02** to work.  A JRE System Library** version of **jre1.8.0\_91** or later should work fine - choose the latest version available.
+There can be a conflict between certain **JRE System Library** versions (earlier than **jre1.8.0\_91**), **CS320\_Jetty9**, and **CS320\_Lab02**.  If you are using an older version of the **JRE System Library**, you might need to change the default **JRE System Library** version to a later version in order to get **CS320\_Lab02** to work.  A **JRE System Library** version of **jre1.8.0\_91** or later should work fine - choose the latest version available.
 
 In KEC 119, there are two versions of the **JRE System Library**: **1.8.0\_51** and **1.8.0\_111**.  You will need to select **1.8.0\_111** in KEC 119 for **CS320\_Lab02** with **CS320_Jetty9** to work properly.
 
