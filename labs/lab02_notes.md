@@ -8,32 +8,32 @@ Determining the JRE System Library
 
 These instructions are for **Eclipse Mars** (which is installed on the PCs in KEC 119 and KEC 123).  The instructions will be similar for **Luna** and **Neon** - but might have some slight differences.
 
-There is a conflict with the default **JRE System Library** version (**jre1.8.0\_111**) that was installed with Eclipse on the lab PCs, and **CS320\_Lab02**.  You will probably need to change the default **JRE System Library** version to an earlier version in order to get **CS320\_Lab02** to work.
+There can be a conflict between certain **JRE System Library** versions (earlier than **jre1.8.0\_91**), **CS320\_Jetty9, and **CS320\_Lab02**.  If you are using an older version of the **JRE System Library**, you might need to change the default **JRE System Library** version to a later version in order to get **CS320\_Lab02** to work.  A JRE System Library** version of **jre1.8.0\_91** or later should work fine - choose the latest version available.
 
-In KEC 119, there are two versions of the **JRE System Library**: **1.8.0\_51** and **1.8.0\_111**.  You will need to select **1.8.0\_51** in KEC 119 for **CS320\_Lab02** to work properly.
+In KEC 119, there are two versions of the **JRE System Library**: **1.8.0\_51** and **1.8.0\_111**.  You will need to select **1.8.0\_111** in KEC 119 for **CS320\_Lab02** with **CS320_Jetty9** to work properly.
 
-* Create a folder on your home drive **(H:)** named **cs320-spring2017**.
+* Create a folder on your home drive **(H:)** named **cs320-spring2018**.
 
 * Set the default workspace for Eclipse to that location.
 
-* Download **CS320\_Jetty.zip** and **CS320\_Lab02.zip**.
+* Download **CS320\_Jetty9.zip** and **CS320\_Lab02.zip**.
 
-* Open Eclipse, switch the **Workspace** to **H:/cs320-spring2017**.
+* Open Eclipse, switch the **Workspace** to **H:/cs320-spring2018**.
 
-* Import **CS320\_Jetty.zip**.
+* Import **CS320\_Jetty9.zip**.
 
 * Import **CS320\_Lab02.zip**.
 
 * Expand the **CS320_Lab02** project.
 
-* If it shows the **JRE System Library** as **jdk1.8.0\_51** or **jdk1.8.0\_60**, then you have no further steps to take.
+* If it shows the **JRE System Library** as **jdk1.8.0\_111** or anything later than **jdk1.8.0\_90**, then you likely have no further steps to take.
 
 Changing the JRE System Library
 =========
 
-On the other hand, if the **JRE System Library** is **jre1.8.0\_111**, you will need to switch to a compatible library.
+On the other hand, if the **JRE System Library** is **jre1.8.0\_51** (or earlier than **jre1.8.0\_91**), you will likely need to switch to a compatible library.
 
-Go to **C:/Program Files/Java** and look for a JDK folder labelled **jdk1.8.0\_xx**, where 'xx' is < 90.  Hopefully, you have one of those installed in the Java folder.  For the lab PCs, there are up to three: **jdk1.8.0\_51**, **jdk1.8.0\_60**, and **jre1.8.0\_111**.  If one of the compatible versions is present, then do the following:
+Go to **C:/Program Files/Java** and look for a JDK folder labelled **jdk1.8.0\_xxx**, where 'xxx' is > 90.  Hopefully, you have one of those installed in the Java folder.  For the lab PCs, there are up to three: **jdk1.8.0\_51**, **jdk1.8.0\_60**, and **jre1.8.0\_111**.  If a compatible version is present, then do the following:
 
 * Go into Eclipse, right-click on the **CS320\_Lab02** project.
 
@@ -51,7 +51,7 @@ Go to **C:/Program Files/Java** and look for a JDK folder labelled **jdk1.8.0\_x
 
 * That will pop up a list of installed JRE's.
 
-* If you see one for **jdk1.8.0\_51** or **jdk1.8.0\_60** (or any < 90), select that one, and hit **Apply**, followed by **OK**.
+* If you see one for **jdk1.8.0\_111** (or any > 90), select the latest one, and hit **Apply**, followed by **OK**.
 
 * You should now see that the **Workspace default JRE** has changed to the one you just selected.
 
@@ -72,9 +72,9 @@ If you do not find an acceptable JDK installed on your computer, you'll have to 
 
 Create a free Oracle account and then download and install the appropriate version for your Eclipse/java installation - the 64-bit version will show up in **C:/Program Files/Java**, and then you can select it as described above.
 
-* Select **Java SE Development Kit 8u51** or **8u60**.
+* Select **Java SE Development Kit 8u91** or later - select the latest one available.
 
-* Now select the appropriate file to download - you want the SDK.  For Windows 64-bit, that will be **jdk-8u51-windows-x64.exe** or **jdk-8u60-windows-x64.exe**.
+* Now select the appropriate file to download - you want the SDK.  For Windows 64-bit, that will be **jdk-8u91-windows-x64.exe** or **later**.
 
 * Download the file - it is 180MB, it could take a while to download.
 

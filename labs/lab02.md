@@ -6,9 +6,9 @@ title: "Lab 2: Web Applications I"
 Getting Started
 ===============
 
-Import [CS320\_Jetty.zip](CS320_Jetty.zip) and [CS320\_Lab02.zip](CS320_Lab02.zip) into Eclipse (**Import &rarr; General &rarr; Existing Projects into Workspace &rarr; Archive File**).
+Import [CS320\_Jetty9.zip](CS320_Jetty9.zip) and [CS320\_Lab02.zip](CS320_Lab02.zip) into Eclipse (**Import &rarr; General &rarr; Existing Projects into Workspace &rarr; Archive File**).
 
-You should see two new projects in your workspace, **CS320\_Jetty** and **CS320\_Lab02**.
+You should see two new projects in your workspace, **CS320\_Jetty9** and **CS320\_Lab02**.
 
 See **AddNumbers.java**, **\_view/addNumbers.jsp**, and **AddNumbersServlet.java** to understand how the model, view, and servlet classes work for the AddNumbers example.
 
@@ -18,7 +18,7 @@ To run the AddNumbers webapp, run **Main.java** as a Java application and enter 
 
 **NOTE:** You must work individually on this lab.  It is imperative that everyone on your team be able to full comprehend, design, implement, toubleshoot, and debug the complete architecture of a standard client-server application.  This **WILL** come up on the exam.
 
-**NOTE:** If you get a mass of Java JSP compiler errors returned from the local host, as well as a heaping pile of red text in the Eclipse console, go to the [Notes for Lab 2 Page](lab02_notes.html) for instructions on solving the problem.  There are also some additional notes at the bottom of that page for other problems that you might encounter.
+**NOTE:** If you start the server and then run AddNumbers from your browser and get a mass of Java JSP compiler errors returned from the local host, go to the [Notes for Lab 2 Page](lab02_notes.html) for instructions on solving the problem.  There are also some additional notes at the bottom of that page for other problems that you might encounter.
 
 Your Task
 =========
