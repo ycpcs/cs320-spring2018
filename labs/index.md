@@ -12,7 +12,7 @@ In fact, your team will likley be using Lab06 as the basis for your team project
 Due Date | Lab | File
 ---- | --- | ----
 Sunday, January 21   | [Lab 1: HTML and CSS](lab01.html) | n/a
-Sunday, February 4   | [Lab 2: Web Applications I](lab02.html)<br> [Lab 2: Web Applications II](lab02a.html) | [CS320\_Lab02.zip](CS320_Lab02.zip), [CS320\_Jetty.zip](CS320_Jetty.zip)
+Sunday, February 4   | [Lab 2: Web Applications I](lab02.html)<br> [Lab 2: Web Applications II](lab02a.html) | [CS320\_Lab02.zip](CS320_Lab02.zip), [CS320\_Jetty9.zip](CS320_Jetty9.zip)
 Friday, February 23 (in-class) | [Lab 3: Git](lab03.html) |
 Tuesday, March 6     | [Lab 4: SQL, Queries, Joins](lab04.html) |  [CS320\_Lab04.zip](CS320_Lab04.zip), [CS320\_Derby.zip](CS320_Derby.zip)
 Saturday, March 10   | [Lab 5: JDBC](lab05.html) | [CS320\_Lab05.zip](CS320_Lab05.zip)
