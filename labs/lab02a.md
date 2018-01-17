@@ -43,7 +43,7 @@ Save your project (**CS320\_username**) to a zip file by right-clicking it and c
 > **Export...&rarr;Archive File**
 
 
-Upload the saved zip file to the Marmoset server as **lab02**. The server URL is
+Upload the saved zip file to the Marmoset server as **lab02a**. The server URL is
 
 > [https://cs.ycp.edu/marmoset/](https://cs.ycp.edu/marmoset/)
 
