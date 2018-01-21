@@ -67,7 +67,6 @@ All information about the course will be posted here.
 
 -->
 
-* **Jan 22** - Please see the **Projects** page for possible team project ideas.
 * **Jan 22** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
 * **Jan 22** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
 * **Jan 22** - [Lab02a: Web Applications II](labs/lab02a.html) is posted.  It is **due by 11:59:59 pm, Sunday, 2-4-18**.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
@@ -78,7 +77,7 @@ All information about the course will be posted here.
 * **Jan 19** - Lab01: HTML & CSS **due by 11:59:59 pm, Sunday, 1-21-18**
 
 * **Jan 17** - [Lab 1: HTML and CSS](labs/lab01.html) is posted
-* **Jan 17** - [Some Possible Team Projects](projects/index.html)
+* **Jan 17** - Please see the **Projects** page for [Some Possible Team Projects](projects/index.html)
 * **Jan 17** - [Assignment 1](assign/assign01.html) is posted
 * **Jan 17** - [Assignment 2](assign/assign02.html) is posted
 * **Jan 17** - [Class Rosters](teams-and-rosters/index.html) are posted - choose your teams
