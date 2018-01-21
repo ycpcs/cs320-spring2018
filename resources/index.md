@@ -5,6 +5,11 @@ title: "Resources"
 
 This page links to useful resources.
 
+York College Career Development Events - Spring 2018
+====================================================
+
+[Career Development Events Poster](FINAL_Spring_2018_Events_Poster.pdf)
+
 Hypertext Mark-Up Language (HTML) and Cascading Style Sheets (CSS)
 ===================================================================
 
