@@ -12,4 +12,4 @@ Career Development Events - Spring 2018
 
 * Thursday, 2-6-18: BD SW Engineering Co-op/Internship Interviews at KEC (apply Spartan Career Path, ID#: 14531)
 
-* Job Posting: {PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
+* Job Posting: [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
