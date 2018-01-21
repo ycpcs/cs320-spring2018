@@ -11,13 +11,13 @@ In fact, your team will likley be using Lab06 as the basis for your team project
 
 Due Date | Lab | File
 ---- | --- | ----
-Sunday, January 21   | [Lab 1: HTML and CSS](lab01.html) | n/a
-Thursday, January 25<br> Sunday, February 4   | [Lab 2: Web Applications I](lab02.html)<br> [Lab 2a: Web Applications II](lab02a.html) | [CS320\_Lab02.zip](CS320_Lab02.zip), [CS320\_Jetty9.zip](CS320_Jetty9.zip)
+Sunday, January 21, by 11:59:59 pm | [Lab 1: HTML and CSS](lab01.html) | n/a
+Thursday, January 25, by 11:59:59 pm<br> Sunday, February 4, by 11:59:59 pm | [Lab 2: Web Applications I](lab02.html)<br> [Lab 2a: Web Applications II](lab02a.html) | [CS320\_Lab02.zip](CS320_Lab02.zip), [CS320\_Jetty9.zip](CS320_Jetty9.zip)
 Friday, February 23 (in-class) | [Lab 3: Git](lab03.html) |
-Tuesday, March 6     | [Lab 4: SQL, Queries, Joins](lab04.html) |  [CS320\_Lab04.zip](CS320_Lab04.zip), [CS320\_Derby.zip](CS320_Derby.zip)
-Saturday, March 10   | [Lab 5: JDBC](lab05.html) | [CS320\_Lab05.zip](CS320_Lab05.zip)
-Saturday, March 17   | [Lab 6: ORM](lab06.html) | [CS320\_Lab06.zip](CS320_Lab06.zip)
+Tuesday, March 6, by 11:59:59 pm | [Lab 4: SQL, Queries, Joins](lab04.html) |  [CS320\_Lab04.zip](CS320_Lab04.zip), [CS320\_Derby.zip](CS320_Derby.zip)
+Saturday, March 10, by 11:59:59 pm | [Lab 5: JDBC](lab05.html) | [CS320\_Lab05.zip](CS320_Lab05.zip)
+Saturday, March 17, by 11:59:59 pm | [Lab 6: ORM](lab06.html) | [CS320\_Lab06.zip](CS320_Lab06.zip)
 
-**You will not pass this course without completing and submitting all of the labs (with the exception of the Git Lab (Lab03), which we will do in class)**.
+**You will not pass this course without completing and submitting good faith attempts on all of the labs (with the exception of the Git Lab (Lab03), which we will do in class)**.
 
 **You will also automatically fail the course, as well as receive an Academic Integrity Violation, if you submit work that was completed by someone else, and/or submit any portion of code taken from the Library Application Example that I provide as part of the course.**
