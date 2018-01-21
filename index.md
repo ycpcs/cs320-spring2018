@@ -65,19 +65,17 @@ All information about the course will be posted here.
 
 * **Feb 2** - [Assignment 5](assign/assign05.html) is **due Sunday, 2-11-18**
 
-* **Jan 24** - Please see the **Projects** page for possible team project ideas.
-
-* **Jan 22** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
-
-* **Jan 22** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
-
-* **Jan 22** - [Lab02: Web Applications II](labs/lab02a.html) is posted.  It is **due Sunday, 2-4-18**.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
-
-* **Jan 19** - Assign02: Individual Project Proposal **due Sunday, 2-3-18**
-* **Jan 19** - Assign01: Team Project Proposal **due Sunday, 1-28-18**
-* **Jan 19** - Lab01: HTML & CSS **due Sunday, 1-21-18**
-
 -->
+
+* **Jan 22** - Please see the **Projects** page for possible team project ideas.
+* **Jan 22** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
+* **Jan 22** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
+* **Jan 22** - [Lab02a: Web Applications II](labs/lab02a.html) is posted.  It is **due by 11:59:59 pm, Sunday, 2-4-18**.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
+* **Jan 22** - [Lab02: Web Applications I](labs/lab02.html) is posted.  It is **due by 11:59:59 pm, Thursday, 1-25-18**.  Please also see the [WebApps Notes](labs/lab02_notes.html) for additional information about setting up the lab.
+
+* **Jan 19** - Assign02: Individual Project Proposal **due by 11:59:59 pm, Saturday, 2-3-18**
+* **Jan 19** - Assign01: Team Project Proposal **due by 11:59:59 pm, Sunday, 1-28-18**
+* **Jan 19** - Lab01: HTML & CSS **due by 11:59:59 pm, Sunday, 1-21-18**
 
 * **Jan 17** - [Lab 1: HTML and CSS](labs/lab01.html) is posted
 * **Jan 17** - [Some Possible Team Projects](projects/index.html)
