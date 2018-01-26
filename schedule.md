@@ -13,11 +13,11 @@ Date   | Topic/Activity | Reading
 ------ | -------------- | -------
 Jan 17 | Course Introduction | [Lecture 1: Course Overview, OOP](lectures/lecture01.html)
 Jan 19 | HTML and CSS<br> HTML and CSS Lab Assigned | [Lecture 2: HTML and CSS](lectures/lecture02.html)<br> [Lab 1: HTML and CSS Lab](./labs/lab01.html)
-Jan 22 | Web Applications<br> Web Applications Lab Assigned | [Lecture 4: Web Applications](lectures/lecture04.html)
-Jan 24 | Web Applications Lab (in class) | [Lab 2: Web Applications I](./labs/lab02.html)<br> [Lab 2: Web Applications II](./labs/lab02a.html)
-Jan 26 | Development Process, Agile Development | UD: Chapter 2, [Lecture 6: Development Process](lectures/lecture06.html)<br> [Manifesto for Agile Software Development](http://www.agilemanifesto.org/)
-Jan 29 | Agile Development and Scrum  | [Questions and Discussion 1](lectures/XPdiscussion1_5.html)
-Jan 31 | Agile and Scrum Guest Lecture | [Questions and Discussion 2](lectures/XPdiscussion6_7.html)
+Jan 22 | Web Applications<br> Web Applications Labs Assigned | [Lecture 4: Web Applications](lectures/lecture04.html)
+Jan 24 | Web Applications Lab (in class) | [Lab 2: Web Applications I](./labs/lab02.html)
+Jan 26 | Web Applications II Lab (in class) | [Lab 2a: Web Applications II](./labs/lab02a.html)
+Jan 29 | Development Process, Agile Development | UD: Chapter 2, [Lecture 6: Development Process](lectures/lecture06.html)<br> [Manifesto for Agile Software Development](http://www.agilemanifesto.org/)
+Jan 31 | Agile and Scrum Lecture | [Questions and Discussion 1](lectures/XPdiscussion1_5.html)
 Feb 2  | Requirements | UD: Chapter 9, [Lecture 8: Requirements, Use Cases](lectures/lecture08.html)
 Feb 5  | Use Case Exercise |
 Feb 7  | Team Project Session: Use Cases (in class) | 
