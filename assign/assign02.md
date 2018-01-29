@@ -67,13 +67,13 @@ Here is the template for your [Individual Project Proposal](CS320_Individual_Pro
 Submitting
 ==========
 
-Create a folder in Google Drive named "CS320-IndProject-userID", replacing "userID" with your YCP User ID.
+Create a folder in Google Drive named "CS320-IndProject-username", replacing "username" with your YCP user name.
 
 Then create your Project Proposal in that folder, using Google Docs.  Share the folder and its contents with me.
 
 This folder will be your means of submission for all non-programming-related individual assignments.
 
-Name your Project Proposal document **assign02-userID**, again substituting your YCP User ID.
+Name your Project Proposal document **assign02-username**, again substituting your YCP user name.
 
 <div class="callout">
 <b>Important</b>: Only submissions in Google Docs will be accepted.
