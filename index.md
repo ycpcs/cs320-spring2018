@@ -60,13 +60,13 @@ All information about the course will be posted here.
 
 * **Feb 14** - [Assignment 4: Individual Project Milestones](assign/assign04.html) **Individual Milestone 1: Baseline** is **due on Monday, March 12th**.  This will be a 3-4 minute in-class demonstration of your progress, to date.
 
-* **Feb 14** - [Assignment 6](assign/assign06.html) is **due Saturday, 2-24-18**
+* **Feb 14** - [Assignment 6: Problem Domain Analysis](assign/assign06.html) is **due by 11:59:59, Saturday, 2-24-18**
 
 * **Feb 9** - For the in-class presentations of your group's work-in-progress analysis models on Friday (2-16-18): please use [Violet UML](http://alexdp.free.fr/violetumleditor/page.php) to create a nicely-formatted electronic version of your team's model.  You can download the jarfile from the [Resources Page](resources/index.html).
 
 -->
 
-* **Feb 5** - [Assignment 5](assign/assign05.html) is **due by 11:59:59 pm, Sunday, 2-11-18**.
+* **Feb 5** - [Assignment 5: Team Use Cases](assign/assign05.html) is **due by 11:59:59 pm, Sunday, 2-11-18**.
 
 * **Jan 22** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
 * **Jan 22** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
