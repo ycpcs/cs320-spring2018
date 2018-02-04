@@ -19,13 +19,13 @@ Jan 24 | Web Applications Lab (in class) | [Lab 2: Web Applications I](./labs/la
 Jan 26 | Web Applications II Lab (in class) | [Lab 2a: Web Applications II](./labs/lab02a.html)
 Jan 29 | Development Processes & Waterfall | UD: Chapter 2, [Lecture 6: Development Process](lectures/lecture06.html)
 Jan 31 | Agile Process & Scrum | [Lecture 7: Agile & Scrum](lectures/lecture07.html)<br>[Manifesto for Agile Software Development](http://www.agilemanifesto.org/)<br> SG: [2016 Scrum Guide](lectures/lecture07/2016_Scrum_Guide_US.pdf)
-Feb 2  | Requirements | UD: Chapter 9, [Lecture 8: Requirements, Use Cases](lectures/lecture08.html)
-Feb 5  | Use Case Exercise |
+Feb 2  | User Requirements Exercise and Brainstorming Session (in-class) | 
+Feb 5  | Requirements & Use Cases<br>Use Case Exercise (in-class) | UD: Chapter 9, [Lecture 8: Requirements, Use Cases](lectures/lecture08.html)
 Feb 7  | Team Project Session: Use Cases (in class) | 
-Feb 9  | UML and OO Analysis | UD: Chapter 3, [Lecture 9: UML Class Diagrams](lectures/lecture09.html)<br> [Lecture 10: OO Analysis](lectures/lecture10.html)
-Feb 12 | OO Analysis Exercise (in class) | 
+Feb 9  | UML and OO Analysis<br>Textual Analysis Exercise (in-class) | UD: Chapter 3, [Lecture 9: UML Class Diagrams](lectures/lecture09.html)<br> [Lecture 10: OO Analysis](lectures/lecture10.html)
+Feb 12 | Team Project Session: Textual Analysis (in class) | 
 Feb 14 | Team Project Session: Project Analysis Model (in class)
-Feb 16 | Project Analysis Model Presentations and Discussion
+Feb 16 | Team Project Analysis Model Presentations and Discussion (in-class)
 Feb 19 | OO Design | [Lecture 11: OO Design, OCP, LSP](lectures/lecture11.html)<br> [Design Principles and Design Patterns](lectures/lecture11/Principles_and_Patterns.pdf), Robert Martin, pages 1-12
 Feb 21 | Version Control | [Lecture 12: Git for Designers](https://web.archive.org/web/20150301060509/http://hoth.entp.com/output/git_for_designers.html)
 Feb 23 | Version Control Lab (in class) |  [Lab 3: Git Lab](./labs/lab03.html)
