@@ -66,7 +66,7 @@ All information about the course will be posted here.
 
 -->
 
-* **Feb 5** - [Assignment 5](assign/assign05.html) is **due Sunday, 2-11-18**
+* **Feb 5** - [Assignment 5](assign/assign05.html) is **due by 11:59:59 pm, Sunday, 2-11-18**.
 
 * **Jan 22** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
 * **Jan 22** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
