@@ -55,25 +55,18 @@ Your proposal should be 1-2 pages, and contain the following information:
 * Description of your project
 * List one or more technologies related to software development that you
   will learn about
-* Briefly discuss your plan for the project: list what sources of information
-  you plan to use, and provide a list of steps/intermediate goals that
-  will allow you to make progress towards completing the project.  You
-  have until the end of the semester to complete the project, but keep
-  in mind that I expect you to make steady progress, and that there will
-  be occasional progress reports/demos.
+* Briefly discuss your plan for the project: list what sources of information you plan to use, and provide a list of steps/intermediate goals that will allow you to make progress towards completing the project.  Keep in mind that I expect you to make steady progress, and that there will be regular in-class progress reports/demos, as specified in [Assignment 4](assign04.html).
   
 Here is the template for your [Individual Project Proposal](CS320_Individual_Project_Proposal_Template.pdf).  Download the [template document](CS320_Individual_Project_Proposal_Template.docx), modify it, as necessary, and follow the submission instructions below.
 
 Submitting
 ==========
 
-Create a folder in Google Drive named "CS320-IndProject-username", replacing "username" with your YCP user name.
+Create a folder in Google Drive named "CS320-IndProject-username", replacing "username" with your YCP user name, and place it in the shared Google **Individual Projects** folder under your section of CS320 that I previously shared with you.
 
-Then create your Project Proposal in that folder, using Google Docs.  Share the folder and its contents with me.
+This folder will be your means of submission for all **non-programming-related individual** assignments.
 
-This folder will be your means of submission for all non-programming-related individual assignments.
-
-Name your Project Proposal document **assign02-username**, again substituting your YCP user name.
+Then create your Individual Project Proposal in that folder, using Google Docs.  Name your Project Proposal document **assign02-username**, again substituting your YCP user name.  Share the folder and its contents with me.
 
 <div class="callout">
 <b>Important</b>: Only submissions in Google Docs will be accepted.

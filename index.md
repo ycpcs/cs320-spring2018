@@ -64,9 +64,9 @@ All information about the course will be posted here.
 
 * **Feb 9** - For the in-class presentations of your group's work-in-progress analysis models on Friday (2-16-18): please use [Violet UML](http://alexdp.free.fr/violetumleditor/page.php) to create a nicely-formatted electronic version of your team's model.  You can download the jarfile from the [Resources Page](resources/index.html).
 
-* **Feb 2** - [Assignment 5](assign/assign05.html) is **due Sunday, 2-11-18**
-
 -->
+
+* **Feb 5** - [Assignment 5](assign/assign05.html) is **due Sunday, 2-11-18**
 
 * **Jan 22** - [Assignment 4](assign/assign04.html) describes the expectations for the individual project milestones.
 * **Jan 22** - [Assignment 3](assign/assign03.html) describes the expectations for the team project milestones.
