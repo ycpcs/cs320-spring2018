@@ -24,7 +24,7 @@ Feb 5  | Requirements & Use Cases<br>Use Case Exercise (in-class) | UD: Chapter 
 Feb 7  | Team Project Session: Use Cases (in class) | 
 Feb 9  | UML and OO Analysis<br>Textual Analysis Exercise (in-class) | UD: Chapter 3, [Lecture 9: UML Class Diagrams](lectures/lecture09.html)<br> [Lecture 10: OO Analysis](lectures/lecture10.html)
 Feb 12 | Team Project Session: Textual Analysis (in class) | 
-Feb 14 | Team Project Session: Project Analysis Model (in class)
+Feb 14 | Team Project Session: Project Analysis Model - UML (in class)
 Feb 16 | Team Project Analysis Model Presentations and Discussion (in-class)
 Feb 19 | OO Design | [Lecture 11: OO Design, OCP, LSP](lectures/lecture11.html)<br> [Design Principles and Design Patterns](lectures/lecture11/Principles_and_Patterns.pdf), Robert Martin, pages 1-12
 Feb 21 | Version Control | [Lecture 12: Git for Designers](https://web.archive.org/web/20150301060509/http://hoth.entp.com/output/git_for_designers.html)
