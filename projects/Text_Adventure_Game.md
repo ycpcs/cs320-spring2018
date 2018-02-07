@@ -28,6 +28,8 @@ There must be an established dictionary and vocabulary - the words and phrases t
 
 * Descriptions: room and actions descriptions
 
+You will need to create a game "engine" - the functionality that executes the moves and actions that the user enters.  In addition that game engine will need to keep track of score, health, inventory, object locations, rooms that the player has visited, and the locations and movements of any of the other active agents (animals, monsters, etc) that exist in the game.  There may be other functionality that the game engine will need.
+
 There must be an inventory of objects that can be distributed throughout the rooms in the map.  Items consist of tools, weapons, materials, treasures, commodities, machines, etc.  Objects can generally be mamipulated by the user, taken into the user's posession, and/or moved between rooms, but some objects may also be stationary.
 
 There must be multiple actors and agents: the player(s), various creatures and monsters, and benign and/or benevolent characters.  It is possible for the actors and agents to move about the map on their own.  There can be conflict between various actors - sometimes facilitated by objects that the player has, or objects that are contained within a certain room.
@@ -60,9 +62,9 @@ The project should not only allow the user to play an established "default" game
 User Interface
 ==============
 
-Finally, in addition to the console that accepts keyboard input and displays the text of the game, the game should have a user interface that allows the user to see their score, their health, their current posessions, the treasures they have gathered, the creatures they have "dispatched", etc.  And the game should be able to produce a graphical map for the player of all the locations that they have visited - while excluding those locations that they have not yet encountered.
+Finally, in addition to the console that accepts keyboard input and displays the text of the game, the game should have a user interface that allows the user to see their score, their health, their current posessions, the treasures they have gathered, the creatures they have "dispatched", etc.
 
-In addition, there should be a user interface that facilitates the user extending the game:
+In addition, there should be a user interface that facilitates the user creating/extending the game.  In fact, this will be the means by which you can create your initial game for testing and playing purposes:
 
 * Creating and connecting new rooms to the map
 
@@ -77,3 +79,12 @@ In addition, there should be a user interface that facilitates the user extendin
 * Assigning point values for the above
 
 * Editing the existing components
+
+Stretch Goals
+=============
+
+* Have the game be able to produce a graphical map for the player of all the locations that they have visited - while excluding those locations that they have not yet encountered.
+
+* Add functionality for a multi-player game - where more than one player can be active in the same game at one time.  You will also need to take into account possible interactions between the players.
+
+* Add pictures and graphics for the various agents, actors, rooms, and objects of the game.
