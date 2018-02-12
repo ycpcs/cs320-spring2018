@@ -6,7 +6,7 @@ title: "Lecture 9: UML Class Diagrams"
 UML Class Diagrams
 ==================
 
-UML class diagrams show the important characterstics of several classes, and the relationships between classes.
+UML class diagrams show the important characteristics of several classes, and the relationships between classes.
 
 Classes
 -------

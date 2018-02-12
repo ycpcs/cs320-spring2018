@@ -64,7 +64,7 @@ MSS - Main Success Scenario:
 
 	3. Customer fills in shipping information (address, shipping info)
 
-	4. System presents full pricing info, including shipping
+	4. System provides full pricing info, including shipping
 
 	5. Customer fills in credit card info
 
@@ -78,7 +78,7 @@ Extensions (alternate paths):
 
 	3a: Customer is a regular customer
 
-		.1: System displays current shipping, pricing, and billing information
+		.1: System provides current shipping, pricing, and billing information
 		
 		.2: Customer may accept or override those defaults, returns to MSS at step 6
 		
