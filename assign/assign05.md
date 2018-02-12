@@ -33,7 +33,7 @@ So, our "Player takes a turn" use case for TicTacToe might look like this:
 >
 > Extensions:
 >
-> > **1a.** If the location is already occupied by a piece, display error message and go back to step 1
+> > **1a.** If the location is already occupied by a piece, issue error message and go back to step 1
 >
 > > **2a.** If a player has won, indicate which player
 > >
