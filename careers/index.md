@@ -14,6 +14,7 @@ Career Development Events - Spring 2018
 
 Job and Internship Opportunities and Postings
 =============================================
+Companies that have recently contacted the York College CS program about internships and full-time positions (updated 2-15-18).
 
 * [AndCulture](https://andculture.com): [Software Applications Development](https://andculture.com/careers/career/4/internships)
 
