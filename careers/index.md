@@ -15,7 +15,7 @@ Career Development Events - Spring 2018
 Job and Internship Opportunities and Postings
 =============================================
 
-* [AndCulture](https://www.andculture.com/home): [Software Applications Development](https://andculture.com/careers/career/4/internships)
+* [AndCulture](https://andculture.com): [Software Applications Development](https://andculture.com/careers/career/4/internships)
 
 * [Dataforma](https://www.dataforma.com): Web Applications Development - CS Internships, contact Vince Moley, Director of Product Development (**vmoley@dataforma.com**).  Dataforma is located in the JD Brown Center (JDBC) - York College's business incubator.
 
@@ -27,7 +27,7 @@ Job and Internship Opportunities and Postings
 
 * [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
 
-* [RH Sheppard - Hanover](www.rhsheppard.com): coming soon
+* [RH Sheppard - Hanover](http://rhsheppard.com): coming soon
 
 * [York Exponential - Robotics](http://yorkexponential.com): coming soon
 
