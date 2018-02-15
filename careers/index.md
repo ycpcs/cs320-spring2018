@@ -23,7 +23,7 @@ Job and Internship Opportunities and Postings
 
 * [Merit Marketing](https://www.madewithmerit.com): [Web Applications Development](MeritMarketingWebDeveloperJobDescription.pdf)
 
-* [Naval Air Warfare Center - Aircraft Division (NAWCAD)](https://www.indeed.com/jobs?q=Science-Technology-Engineering-Math+%28STEM%29+Student+Internships&l=Lexington+Park%2C+MD
+* [Naval Air Warfare Center - Aircraft Division (NAWCAD)](https://www.indeed.com/jobs?q=Science-Technology-Engineering-Math+%28STEM%29+Student+Internships&l=Lexington+Park%2C+MD)
 
 * [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
 
