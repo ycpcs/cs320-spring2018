@@ -5,6 +5,8 @@ title: "Career Development"
 
 Career Development Links and Events - Spring 2018
 ====================================================
+Kelly Arcieri (**karcieri@ycp.edu) is our new Computer Science internship program advisor.
+
 * [York College Career Development Center](https://www.ycp.edu/about-us/offices-and-departments/student-success/career-development-center/)
 
 * Spring Semester: [YCP Career Development Events Poster](FINAL_Spring_2018_Events_Poster.pdf)
