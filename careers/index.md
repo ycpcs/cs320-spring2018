@@ -15,13 +15,13 @@ Job and Internship Opportunities and Postings
 
 * [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
 
-* [AndCulture - Software Applications Development](https://andculture.com/careers/career/4/internships)
+* [AndCulture](www.andculture.com): [Software Applications Development](https://andculture.com/careers/career/4/internships)
 
-* [Merit Marketing - Web Applications Development](MeritMarketingWebDeveloperJobDescription.pdf)
+* [Merit Marketing](www.meritmarketing.com): [Web Applications Development](MeritMarketingWebDeveloperJobDescription.pdf)
 
-* Dataforma - Web Applications Development - CS Internships, contact Vince Moley, Director of Product Development (vmoley@dataforma.com)  Located in the JD Brown Center (JDBC) - York College's business incubator.
+* [Dataforma](www.dataforma.com): Web Applications Development - CS Internships, contact Vince Moley, Director of Product Development (vmoley@dataforma.com).  Dataforma is located in the JD Brown Center (JDBC) - York College's business incubator.
 
-* [JF Taylor - Aircraft and Battlefield Simulators](https://www.jfti.com/CAREERS)  York College E&CS students and graduates may send cover letters and resumes directly to Amy Retzlaff (amy.retzlaff@navy.mil) or Steven Retzlaff (steven.retzlaff@navy.mil)
+* [JF Taylor](www.jfti.com): [Aircraft and Battlefield Simulators](https://www.jfti.com/CAREERS).  York College E&CS students and graduates may send cover letters and resumes directly to Amy Retzlaff (amy.retzlaff@navy.mil) or Steven Retzlaff (steven.retzlaff@navy.mil).
 
 * [Naval Air Warfare Center - Aircraft Division (NAWCAD)](https://www.indeed.com/jobs?q=Science-Technology-Engineering-Math+%28STEM%29+Student+Internships&l=Lexington+Park%2C+MD
 
