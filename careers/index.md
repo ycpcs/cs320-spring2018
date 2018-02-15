@@ -8,9 +8,9 @@ Career Development Events - Spring 2018
 
 * Spring Semester: [YCP Career Development Events Poster](FINAL_Spring_2018_Events_Poster.pdf)
 
--->
+<!--
 * Tuesday, 1-23-18: [Naval Surface Warfare Center Job Fair](NSWCPD_Job_Fair_Jan23rd.pdf)
-<---
+-->
 
 Job and Internship Opportunities and Postings
 =============================================
