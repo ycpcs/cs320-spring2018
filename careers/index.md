@@ -29,9 +29,14 @@ Companies that have recently contacted the York College CS program about interns
 
 * [Naval Air Warfare Center - Aircraft Division (NAWCAD)](https://www.indeed.com/jobs?q=Science-Technology-Engineering-Math+%28STEM%29+Student+Internships&l=Lexington+Park%2C+MD)
 
+
+
 * [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
 
 * [RH Sheppard - Hanover](http://rhsheppard.com): coming soon
+
+* [WebPageFX](https://www.webpagefx.com) [First Ever WebpageFX-U: Interactive Event - Apply by 2-21-18](WebpageFXUInteractive.pdf).  
+Students can register by visiting and filling out their Evite here: [Check Out the Evite!](https://www.evite.com/event/03B7YXLVINVI34442EPH7RYVWW5CC4/rsvp?utm_campaign=send_sharable_link&utm_medium=sharable_invite&utm_source=NA).
 
 * [York Exponential - Robotics](http://yorkexponential.com): coming soon
 
