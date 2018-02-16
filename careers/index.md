@@ -29,8 +29,6 @@ Companies that have recently contacted the York College CS program about interns
 
 * [Naval Air Warfare Center - Aircraft Division (NAWCAD)](https://www.indeed.com/jobs?q=Science-Technology-Engineering-Math+%28STEM%29+Student+Internships&l=Lexington+Park%2C+MD)
 
-
-
 * [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
 
 * [RH Sheppard - Hanover](http://rhsheppard.com): coming soon
