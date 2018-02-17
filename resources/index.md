@@ -10,6 +10,8 @@ Hypertext Mark-Up Language (HTML) and Cascading Style Sheets (CSS)
 
 [w3Schools.com](http://www.w3schools.com): **Go here first for HTML/CSS, SQL, JavaScript, PHP tutorials**
 
+[Free Code Camp](https://www.freecodecamp.org): Covers HTML/CSS (you need to create a free account)
+
 [Basic HTML Tutorial](http://www.htmliseasy.com/html_tutor/index.html): Tutorial site for Basic HTML
 
 [HTML Forms Tutprial](http://www.htmliseasy.com/form_tutor/lesson01.html): Tutorial site for creating HTML Forms
@@ -40,6 +42,8 @@ JavaScript (JS)
 
 [JavaScript Tutorial](http://www.htmliseasy.com/javascript/index.html): Basic JavaScript tutorial
 
+[Free Code Camp](https://www.freecodecamp.org): Covers various JavaScript versions (you need to create a free account)
+
 Unified Modeling Language (UML)
 ===============================
 
@@ -49,6 +53,7 @@ Unified Modeling Language (UML)
 
 Git, GitHub, and eGit
 =====================
+[Free Code Camp](https://www.freecodecamp.org): Covers Git and GitHub (you need to create a free account)
 
 [Git Website](https://git-scm.com): Everything you ever wanted to know about Git, but were afraid to ask
 
@@ -64,12 +69,16 @@ Git, GitHub, and eGit
 
 [eGit Home Page](https://www.eclipse.org/egit/): Documentation and tutorials on setting up and using eGit
 
+
+
 [eGit: Fetching and merging changes from within Eclipse](fetchMerge.html)
 
 Relational Databases and Structured Query Language (SQL)
 ========================================================
 
 [SQL Tutorial - w3schools](https://www.w3schools.com/sql/default.asp): **Go here first for SQL tutorials w/sandbox from w3schools.com**
+
+[Free Code Camp](https://www.freecodecamp.org): Covers SQL Databases (you need to creaate a free account)
 
 [CS320\_Derby.zip](CS320_Derby.zip): Eclipse project with jarfiles for Apache Derby (relational database)
 
