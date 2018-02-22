@@ -53,6 +53,8 @@ Unified Modeling Language (UML)
 
 Git, GitHub, and eGit
 =====================
+[Git Branching Demo](https://learngitbranching.js.org/): Great JavaScript-based demo for using branches in Git
+
 [Free Code Camp](https://www.freecodecamp.org): Covers Git and GitHub (you need to create a free account)
 
 [Git Website](https://git-scm.com): Everything you ever wanted to know about Git, but were afraid to ask
