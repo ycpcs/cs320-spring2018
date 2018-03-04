@@ -106,7 +106,7 @@ This query will match multiple tuples in the **books** relation, and return the 
 Joins
 =====
 
-A *join* is a query which retrieves information from multiple relations. Joins are a powerful way to exploint *associations* between tuples in different relations. The idea is that a query retrieving information from multiple relations will specify a *join condition* which links attribute values in tuples of two relations.
+A *join* is a query which retrieves information from multiple relations. Joins are a powerful way to exploit *associations* between tuples in different relations. The idea is that a query retrieving information from multiple relations will specify a *join condition* which links attribute values in tuples of two relations.
 
 Let's consider how to find the titles of all books by **Stephen Hawking** in the second version of the database, where we have two relations, **books** and **authors**. We will need to do a join of both relations in order to connect the author name and book title, which are now stored in different relations:
 
@@ -144,6 +144,6 @@ To answer queries as efficiently as possible, the database should limit its scan
 
 For example: let's say that in the book database, we will frequently need to search for authors by last name. To make those queries more efficient, we can build an index on the **lastname** attribute. Queries such as
 
-    select author_id from authors where lastname = 'Smith';
+    select author_id from authors where lastname = 'Hawking';
 
-can be answered efficiently because the index on **lastname** will allow the database to ignore tuples in which the value of that attribute is not 'Smith'.
+can be answered efficiently because the index on **lastname** will allow the database to ignore tuples in which the value of that attribute is not 'Hawking'.
