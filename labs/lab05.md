@@ -17,13 +17,13 @@ Task
 
 In the lab skeleton you will find a program called **TitleQuery** which demonstrates basic JDBC tasks such as loading a driver, connecting to a database, creating and executing a prepared statement, and iterating through results returned from a query.
 
-Using **TitleQuery** as a model, extende the program to do the following:
+Using **TitleQuery** as a model, write your own programs (separate classes with main() methods) to do the following:
 
-**(1)** Find all books written by an author whose last name is specified by the user. Return the books in the same form as the **TitleQuery** program, but sorted in ascending order by title.
+1. Create class **BooksByAuthorLastNameQuery** that finds all books written by the author whose last name is specified by the user. Return the books in the same form as the **TitleQuery** program, but sorted in ascending order by **Title**.
 
-**(2)** For an existing author, given the full (first and last) name of an author, a title, an ISBN, and the year that the book was published, insert the book into the database.  Your program must first retrieve the existing author's **author\_id** before inserting the new book entry into the **books** table.
+2a. Create class **InsertNewBookWithAuthor**: For an existing author, given the full (first and last) name of an author, a title, an ISBN, and the year that the book was published, insert the new book into the database.  Your program must first retrieve the existing author's **author\_id** before inserting the new book entry into the **books** table.
 
-**(3)** Modify the above to allow insertion of a new book for an author that is not already in the database.  In this case, the program must first add the new author to the **authors** table, and then retrieve the auto-generated **author\_id** for the new author, before inserting the new book into the **books** table.  Hint: This requires multiple steps: attempt to retrieve the **author\_id**.  If the result set is empty, add the new author to the **authors** table.  Then, retrieve the **author\_id** that was automatically assigned for the new author.  Now you can insert the new book into the **books** table.  Use the SQL **insert** statement to insert the new tuple(s).
+2b. Modify **InsertNewBookWithAuthor** to allow insertion of a new book for an author that is not already in the database.  In this case, the program must first add the new author to the **authors** table, and then retrieve the auto-generated **author\_id** for the new author, before inserting the new book into the **books** table.  Hint: This requires multiple steps: attempt to retrieve the **author\_id**.  If the result set is empty, add the new author to the **authors** table.  Then, retrieve the **author\_id** that was automatically assigned for the new author.  Now you can insert the new book into the **books** table.  Use the SQL **insert** statement to insert the new tuple(s).
 
 Submitting
 ==========
