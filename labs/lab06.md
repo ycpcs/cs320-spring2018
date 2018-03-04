@@ -27,9 +27,9 @@ Tasks:
 
 Using **TitleQuery** as a model, write your own programs (separate classes with main() methods) to do the following:
 
-1. Find all books written by the author whose last name is specified by the user. Return the books in the same form as the **TitleQuery** program.
+1. Create class **AuthorQuery** that find all books written by the author whose last name is specified by the user. Return the books in the same form as the **TitleQuery** program.
 
-2. Given the full (first and last) name of an author, a title, an ISBN, and a publish year, insert the book into the database. The program should add a new tuple to the **authors** table if the author doesn't already exist. If the author does exist already, the program should use that author's **author\_id**.  Use the SQL **insert** statement to insert the new tuple(s).  **NOTE:**  This is the same set of SQL queries as the the third problem in Lab05.  You are welcome to reuse your code for that solution.
+2. Create class **InsertBook**: Given the full (first and last) name of an author, a title, an ISBN, and a publish year, insert the book into the database. The program should add a new tuple to the **authors** table if the author doesn't already exist. If the author already exists, the program should use that author's **author\_id**.  Use the SQL **insert** statement to insert the new tuple(s).  **NOTE:**  This is the same set of SQL queries as the third problem in [Lab 5](lab05.html).  You are welcome to reuse your code from that solution.
 
 ## Hints
 
@@ -39,7 +39,7 @@ For the first task, add the following method to **IDatabase**:
 
 Implement it in **FakeDatabase** and **DerbyDatabase**.  Start by implementing the method in **FakeDatabase** (just have the method in **DerbyDatabase** throw an **UnsupportedOperationException**.)
 
-For the second task, do a query to see if the author exists.  If it doesn't, insert the new author into the **authors** table.  (Note: you will want to allow the database to automatically assign an **author\_id**).  Then, retrieve the **author\_id** so that you can insert a new tuple into the **books** relation (again, the database will automatically assign a **book\_id**).  Note that the entire operation should be executed as part of a **single transaction**.
+For the second task, first do a query to see if the author exists.  If the author doesn't exist, insert the new author into the **authors** table.  (Note: you will want to allow the database to automatically assign an **author\_id**).  Then, retrieve the **author\_id** so that you can insert a new tuple into the **books** relation (again, the database will automatically assign a **book\_id**).  Note that the entire operation should be executed as part of a **single transaction**.
 
 Submitting
 ==========
@@ -57,8 +57,3 @@ Save your project (**CS320\_lab06\_username**) to a zip file by right-clicking i
 Upload the saved zip file to the Marmoset server as **lab06**. The server URL is
 
 > [https://cs.ycp.edu/marmoset/](https://cs.ycp.edu/marmoset/)
-
-
-<!-- vim:set wrap: ­-->
-<!-- vim:set linebreak: -->
-<!-- vim:set nolist: -->
