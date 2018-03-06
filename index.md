@@ -52,11 +52,11 @@ All information about the course will be posted here.
 
 -->
 
+* **Mar 6** - [Lab04: SQL, Queries, Joins](labs/lab04.html) is posted.  The due date has been **moved** to **Thursday, 3-8-18**.
+
 * **Mar 5** - [Lab06: ORM](labs/lab06.html) is posted.  It is due **Saturday, 3-17-18**.
 
 * **Mar 5** - [Lab05: JDBC](labs/lab05.html) is posted.  It is due **Saturday, 3-10-18**.
-
-* **Mar 5** - [Lab04: SQL, Queries, Joins](labs/lab04.html) is posted.  It is due **Tuesday, 3-6-18**.
 
 * **Mar 5** - [Assignment 3: Team Project Milestones](assign/assign03.html) **Team Milestone 1: Minimal Working System** is **due on Monday, March 19th**.    This will be a FORMAL 8-10 minute (max) in-class team presentation/demonstration of your team's progress on your UI structure and navigation.  You should have the vast majority of your servlets and JSPs defined, and be able to navigate between most, if not all, of your pages.  Your HTML/CSS will still be in a rough state - don't worry about making it "pretty", focus on functionality over form.  There is **NO** expectation for having any of your SQL database implemented or working.
 
