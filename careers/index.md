@@ -33,6 +33,8 @@ Companies that have recently contacted the York College CS program about interns
 
 * [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
 
+* [Return Logic](https://returnlogic.com) - Coming soon
+
 * [RH Sheppard - Hanover](http://rhsheppard.com): Spartan Career Path [IT Intern Positions](RHSheppard_IT_Intern.pdf)
 
 * [Systems Alliance - SAI](https://www.systemsalliance.com): Spartan Career Path [Fulltime Web/Ux Designer](SAI_Web_UX_Designer.pdf)
