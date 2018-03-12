@@ -25,16 +25,19 @@ Companies that have recently contacted the York College CS program about interns
 
 * [JF Taylor](https://www.jfti.com): [Aircraft and Battlefield Simulators](https://www.jfti.com/CAREERS).  York College E&CS students and graduates may send cover letters and resumes directly to Amy Retzlaff (**amy.retzlaff@navy.mil**) or Steven Retzlaff (**steven.retzlaff@navy.mil**).
 
+* [KioWare - Analytical Design Solutions](https://www.kioware.com): Spartan Career Path [Fulltime SW Engineer Position](KioWare_SW_Engineer.pdf), [SW Engineering Co-op/Intern Position](KioWare_SW_Engineer_Intern.pdf)
+
 * [Merit Marketing](https://www.madewithmerit.com): [Web Applications Development](MeritMarketingWebDeveloperJobDescription.pdf)
 
 * [Naval Air Warfare Center - Aircraft Division (NAWCAD)](https://www.indeed.com/jobs?q=Science-Technology-Engineering-Math+%28STEM%29+Student+Internships&l=Lexington+Park%2C+MD)
 
 * [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
 
-* [RH Sheppard - Hanover](http://rhsheppard.com): coming soon
+* [RH Sheppard - Hanover](http://rhsheppard.com): Spartan Career Path [IT Intern Positions](RHSheppard_IT_Intern.pdf)
+
+* [Systems Alliance - SAI](https://www.systemsalliance.com): Spartan Career Path [Fulltime Web/UX Designer](SAI_Web_UX_Designer.pdf)
 
 * [WebPageFX](https://www.webpagefx.com) [First Ever WebpageFX-U: Interactive Event - Apply by 2-21-18](WebpageFXUInteractive.pdf).  
 Students can register by visiting and filling out their Evite here: [Check Out the Evite!](https://www.evite.com/event/03B7YXLVINVI34442EPH7RYVWW5CC4/rsvp?utm_campaign=send_sharable_link&utm_medium=sharable_invite&utm_source=NA).
 
-* [York Exponential - Robotics](http://yorkexponential.com): coming soon
-
+* [York Exponential - Robotics](http://yorkexponential.com): [Robothon 2018 Sign-Up](https://robothon.yorkexponential.com)
