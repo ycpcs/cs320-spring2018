@@ -104,10 +104,10 @@ Testing effort will eventually reach a point of diminishing returns:
 
 > ![image](figures/testingEffort.png)
 
-**How do you know when a faucet has stopped dripping?**
-
 Once a testing effort reaches the point where the rate at which bugs are being found is sufficiently close to 0, we can stop testing. (Or, at least, more testing is not likely to yield many more bugs.)
 
-At that point, though, which bugs remain?
+	**How do you know when a faucet has stopped dripping?**
 
-**Do you know what happens when you don't take the full course of antibiotics prescribed by your doctor?**
+And, at that point, what type of bugs remain?
+
+	**Do you know what happens when you don't take the full course of antibiotics prescribed by your doctor?**
