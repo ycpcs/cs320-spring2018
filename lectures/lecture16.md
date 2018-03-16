@@ -63,7 +63,7 @@ One kind of metric for test adequecy is code coverage. There are various levels 
 >
 > branch coverage: ensure that every branch (decision point) in the program is exercised in all possible ways. For example, the tests must ensure that every if statement and loop condition is made both true and false by the tests.
 
-Example: How many different conditions need to be testing to cover the following "if" statement?
+Example: How many different conditions need to be tested to cover the following "if" statement?
 
 		if ((a && b) || (c && d))
 		{
