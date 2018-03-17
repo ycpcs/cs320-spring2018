@@ -25,7 +25,7 @@ Slides to consider (you may include others, as you see fit):
 * Challenges you have encountered, and how you have dealt with them.
 * Goals for the next milestone.
 * Updated version of your UML diagram.
-* Updated version of your database schema - all DB tables with attributes and types for each table
+* Updated version of your database schema - all DB tables with all attributes and their respective data types for each table.
 
 **Milestone 1: Minimal Working System**. Your team should demonstrate
 
