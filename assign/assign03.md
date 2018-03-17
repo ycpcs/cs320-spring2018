@@ -18,14 +18,14 @@ This document describes the expectations for each milestone.
 Each milestone will be a **formal** presentation, where your team should be assembling a collection of 5-10 PowerPoint slides, along with a demonstration of your working code, and a run of the complete set of test cases that you have developed to that point.  Bear in mind that it is acceptable for some of your test cases to fail, as you will not have implemented all of your code - at least for the first 4 milestones.
 
 Slides to consider (you may include others, as you see fit):
-# Project title slide that also includes all of the names of the team members.
-# Brief description of you project.
-# List of major features, with the status of each feature.
-# Task assignments for the team members.
-# Challenges you have encountered, and how you have dealt with them.
-# Goals for the next milestone.
-# Updated version of your UML diagram.
-# Updated version of your database schema - all DB tables with attributes and types for each table
+* Project title slide that also includes all of the names of the team members.
+* Brief description of you project.
+* List of major features, with the status of each feature.
+* Task assignments for the team members.
+* Challenges you have encountered, and how you have dealt with them.
+* Goals for the next milestone.
+* Updated version of your UML diagram.
+* Updated version of your database schema - all DB tables with attributes and types for each table
 
 **Milestone 1: Minimal Working System**. Your team should demonstrate
 
