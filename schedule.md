@@ -39,16 +39,16 @@ Mar 12 | Individual Project Milestone 1:<br> **Baseline Prototype** | [Assignmen
 Mar 14 | ORM Lab Session (in class)
 Mar 16 | Testing and Code Coverage | [Lecture 16: Testing](lectures/lecture16.html)
 Mar 19 | Team Project Milestone 1:<br> **Minimal Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
-Mar 21 | Ensuring Code Quality | [Lecture 17: Ensuring Code Quality](lectures/lecture17.html) 
-Mar 23 | Library Application Example<br> Mid-Term Exam Review
-Mar 26 | Individual Project Milestone 2:<br> **33% Progress** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
+Mar 21 | WOO HOO - A SNOW DAY...!  :-)
+Mar 23 | Ensuring Code Quality | [Lecture 17: Ensuring Code Quality](lectures/lecture17.html) 
+Mar 26 | Library Application Example<br> Mid-Term Exam Review
 Mar 28 | **MID-TERM EXAM** (in class)
 Mar 30 | **Spring Break, no class**
 Apr 2  | **Spring Break, no class**
-Apr 4  | Team Project Session (in class)
+Apr 4  | Individual Project Milestone 2:<br> **33% Progress** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 Apr 6  | Team Project Milestone 2:<br> **Progress on Features** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Apr 9  | Individual Project Milestone 3:<br> **67% Progress** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
-Apr 11 | Team Project Session (in class)
+Apr 11 | Guest Lecture - AndCulture.com
 Apr 13 | Team Project Session (in class)
 Apr 16 | Team Project Milestone 3:<br> **75% Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Apr 18 | Team Project Session (in class)
