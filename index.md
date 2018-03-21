@@ -46,11 +46,11 @@ All information about the course will be posted here.
 
 * **Mar 21** - Posted an extensive example project on the [Resources page](./resources) that incorporates the Web Applications lab solution (Lab02) with the ORM Lab solution (Lab06).  It provides a web application front-end to the ORM queries, as well as demonstrates the use of login session information, and incorporation of a SQL database persistence layer with a many-to-many relationship.
 
+-->
+
 * **Mar 19** - [Individual Project Milestone2](assign/assign04.html) is due Monday, March 26th.  This will be an informal (at your desk) 2-4 minute (max) in-class demonstration of your progress since Milestone 1.
 
 * **Mar 14** - The midterm exam will be in-class on **Wednesday, 3-28-18**.  It will be open notes and you can use any resource on the CS320 website, as well as your lab solutions.  A practice exam will be posted over the weekend.  We will use Friday, 3-23-18, to go over an end-to-end solution for the books database we've been working with, as well as review for the exam.
-
--->
 
 * **Mar 6** - [Lab04: SQL, Queries, Joins](labs/lab04.html) is posted.  The due date has been **moved** to **Thursday, 3-8-18**.
 
