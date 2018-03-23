@@ -33,7 +33,7 @@ Companies that have recently contacted the York College CS program about interns
 
 * [PrivacyCheq.com Web Applications Support](PrivacyCheqPosting_012118.pdf)
 
-* [Return Logic](https://returnlogic.com) - Coming soon
+* [Return Logic](https://returnlogic.com): [Internship Guidelines](ReturnLogic_Internship_Guidelines.pdf), [SW Engineering Internship Listing](ReturnLogic_Engineering_Internship_University_Listing.pdf), [Fulltime QA Software Tester](ReturnLogic_QA_Software_Tester.pdf)
 
 * [RH Sheppard - Hanover](http://rhsheppard.com): Spartan Career Path [IT Intern Positions](RHSheppard_IT_Intern.pdf)
 
