@@ -17,6 +17,8 @@ If you refresh your **CS320_Lab06** project, you should see the **test.db** dire
 
 **NOTE:** You must work individually on this lab.  It is imperative that everyone on your team be able to construct SQL queries, to establish a connection between a Java program and a SQL database, and to write SQL queries embedded in Java code.  This **WILL** come up on the exam.
 
+**You will also automatically fail the course, as well as receive an Academic Integrity Violation, if you submit work that was completed by someone else, and/or submit any portion of code taken from the Library Example Project that I provide as part of the course.**
+
 # Task
 
 In the lab skeleton you will find a program called **TitleQuery** which demonstrates using an ORM interface to find all books that have the title entered by the user (along with the author information).

@@ -7,7 +7,7 @@ This page lists the lab activities.  We might get started on these labs in class
 
 The labs provide extremely important concepts and techniques that will be essential for completing your team project.  The given due dates are the enforced dates, but I **HIGHLY** encourage you to work on the SQL-related labs (Lab04, Lab05, and Lab06) ahead of time, as they are essential for getting a good start on your persistent database design and implementation.
 
-In fact, your team will likley be using Lab06 as the basis for your team project's database.  If you ask any of the teams from previous years, they will all tell you that the database portion of their project implementation was the most time-consuming and difficult of their various project's tasks.
+In fact, your team will likely be using Lab06 as the basis for your team project's database.  If you ask any of the teams from previous years, they will all tell you that the database portion of their project implementation was the most time-consuming and difficult of their various project's tasks.
 
 Due Date | Lab | File
 ---- | --- | ----
@@ -20,4 +20,4 @@ Saturday, March 17, by 11:59:59 pm | [Lab 6: ORM](lab06.html) | [CS320\_Lab06.zi
 
 **You will not pass this course without completing and submitting good faith attempts on all of the labs (with the exception of the Git Lab (Lab03), which we will do in class)**.
 
-**You will also automatically fail the course, as well as receive an Academic Integrity Violation, if you submit work that was completed by someone else, and/or submit any portion of code taken from the Library Application Example that I provide as part of the course.**
+**You will also automatically fail the course, as well as receive an Academic Integrity Violation, if you submit work that was completed by someone else, and/or submit any portion of code taken from the Library Example Project that I provide as part of the course.**
