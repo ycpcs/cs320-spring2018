@@ -36,13 +36,11 @@ All information about the course will be posted here.
 
 * **Apr 23** - [Team Project Milestone 4](assign/assign03.html) is due Wednesay, May 2nd.  This will be a FORMAL 8-10 minute (max) in-class team presentation/demonstration of your team's progress since milestone 3.  You should have a 95% working system, with a higher degree of "polish".  All SQL database functionality should be implemented for this milestone.  See the guidelines for [Team Project Milestone 4](assign/assign03.html).
 
-* **Apr 16** - [Individual Project Milestone 3](assign/assign04.html) is due Monday, April 23rd.  This will be your final Informal (at your desk) 2-4 minute (max) in-class demonstration of your individual project.
-
-* **Apr 9** - [Team Project Milestone 3](assign/assign03.html) is due Monday, April 16th.  This will be a FORMAL 8-10 minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **is required** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
-
-* **Apr 4** - [Individual Project Milestone 3](assign/assign04.html) is due Monday, April 9th.  This will be an informal (at your desk) 2-4 minute (max) in-class demonstration of your progress since Milestone 1.
-
 -->
+
+* **Apr 9** - [Individual Project Milestone 3](assign/assign04.html) is due Monday, April 23rd.  This will be your final Informal (at your desk) 2-4 minute (max) in-class demonstration of your individual project.
+
+* **Apr 9** - [Team Project Milestone 3](assign/assign03.html) **has been moved** to due Friday, April 20th.  This will be a FORMAL 8-10 minute (max) in-class team presentation/demonstration of your team's progress since milestone 2.  SQL database functionality **IS REQUIRED** for this milestone.  A large majority of your classes, methods, test cases, and web page navigation should be implemented by milestone 3, as well.
 
 * **Apr 6** - Mid-semester self/peer evaluations are due Sunday, April 8th.  See the instructions under [Assignment 11](assign/assign11.html).
 

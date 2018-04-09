@@ -50,9 +50,9 @@ Apr 6  | Team Project Milestone 2:<br> **Progress on Features** | [Assignment 3:
 Apr 9  | Team Project Session (in class)
 Apr 11 | Guest Lecture - AndCulture.com
 Apr 13 | Team Project Session (in class)
-Apr 16 | Team Project Milestone 3:<br> **75% Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
+Apr 16 | Team Project Session (in class)
 Apr 18 | Team Project Session (in class)
-Apr 20 | Team Project Session (in class)
+Apr 20 | Team Project Milestone 3:<br> **75% Working System** | [Assignment 3: Team Project Milestones](assign/assign03.html)
 Apr 23 | Individual Project Milestone 3:<br> **FINAL PROJECT DEMOS** | [Assignment 4: Individual Project Milestones](assign/assign04.html)
 Apr 25 | Team Project Session (in class)
 Apr 26 | Individual Project Code & Report Due | [Assignment 9: Individual Project Deliverables](assign/assign09.html)
