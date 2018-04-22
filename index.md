@@ -28,15 +28,15 @@ All information about the course will be posted here.
 
 <!-- Commenting out News until it's needed - and the dates will change, anyway
 
-* **Apr 23** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 8th by 11:59 PM.
+-->
 
-* **Apr 23** - [Assignment 9](assign/assign09.html) describes the deliverables for the individual project.
+* **Apr 23** - [Assignment 10](assign/assign10.html) is an individual reflection on the team project.  [Assignment 11](assign/assign11.html) is a self/peer evaluation for the team project.  They are both due Tuesday, May 8th by 11:59 PM.
 
 * **Apr 23** - [Assignment 8](assign/assign08.html) describes the deliverables for the team project.
 
 * **Apr 23** - [Team Project Milestone 4](assign/assign03.html) is due Wednesay, May 2nd.  This will be a FORMAL 8-10 minute (max) in-class team presentation/demonstration of your team's progress since milestone 3.  You should have a 95% working system, with a higher degree of "polish".  All SQL database functionality should be implemented for this milestone.  See the guidelines for [Team Project Milestone 4](assign/assign03.html).
 
--->
+* **Apr 16** - [Assignment 9](assign/assign09.html) describes the deliverables for the individual project.  The report and code for your individual project are due on Tuesday, 4-24-18.
 
 * **Apr 9** - [Individual Project Milestone 3](assign/assign04.html) is due Monday, April 23rd.  This will be your final Informal (at your desk) 2-4 minute (max) in-class demonstration of your individual project.
 
